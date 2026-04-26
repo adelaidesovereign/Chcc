@@ -35,7 +35,7 @@ export function StaffShell({ member, children, current = "home" }: StaffShellPro
               src={clubConfig.brand.logoMarkPath ?? clubConfig.brand.logoPath}
               alt={clubConfig.shortName}
               width={40}
-              height={26}
+              height={23}
               priority
             />
             <div className="flex items-baseline gap-3">

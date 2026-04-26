@@ -44,7 +44,7 @@ export function MemberShell({ member, children, current = "home" }: MemberShellP
               src={clubConfig.brand.logoMarkPath ?? clubConfig.brand.logoPath}
               alt={clubConfig.shortName}
               width={44}
-              height={28}
+              height={25}
               priority
             />
             <div className="hidden font-serif text-base text-[color:var(--color-text-emphasis)] md:block">

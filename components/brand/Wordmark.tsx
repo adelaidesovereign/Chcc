@@ -33,7 +33,7 @@ export function Wordmark({ variant = "stacked", size = "md", className }: Wordma
         src={clubConfig.brand.logoMarkPath ?? clubConfig.brand.logoPath}
         alt={clubConfig.name}
         width={dim.mark}
-        height={(dim.mark * 200) / 320}
+        height={Math.round((dim.mark * 152) / 268)}
         priority
       />
       {variant !== "mark-only" ? (
