@@ -1,10 +1,15 @@
+import { redirect } from "next/navigation";
+import { getCurrentMember } from "@/lib/session";
+
 /**
- * Member route group — Phase 2.
- * Empty in Phase 1; placeholder to reserve the segment.
+ * Member route group — gates access via demo-mode session.
  *
- * The middleware redirects unauthenticated requests for any path under
- * here to /login, but no member routes exist yet.
+ * Children pages can call `requireCurrentMember()` directly; this layout
+ * provides a hard redirect for any user landing on a member URL without
+ * a session.
  */
-export default function MemberLayout({ children }: { readonly children: React.ReactNode }) {
+export default async function MemberLayout({ children }: { readonly children: React.ReactNode }) {
+  const member = await getCurrentMember();
+  if (!member) redirect("/login");
   return <div data-theme="parchment">{children}</div>;
 }

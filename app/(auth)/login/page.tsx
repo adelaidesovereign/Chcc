@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { clubConfig } from "@/club.config";
+import { getAdapter } from "@/lib/adapter";
 import { Wordmark } from "@/components/brand/Wordmark";
 import { LoginForm } from "./LoginForm";
 
@@ -9,6 +10,29 @@ export const metadata: Metadata = {
   title: "Members' Sign In",
   description: `Members of ${clubConfig.name} — sign in to your account.`,
 };
+
+const DEMO_MEMBER_IDS = ["M-0003", "M-0001", "M-0004"] as const;
+
+async function loadDemoMembers() {
+  if (clubConfig.integration.mode !== "mock") return [];
+  const adapter = getAdapter();
+  const members = await Promise.all(DEMO_MEMBER_IDS.map((id) => adapter.getMember(id)));
+  return members
+    .filter((m): m is NonNullable<typeof m> => Boolean(m))
+    .map((m) => {
+      const tierLabel = m.tier
+        .split("-")
+        .map((p) => p[0]!.toUpperCase() + p.slice(1))
+        .join(" ");
+      const dietary = m.dietaryPreferences.length ? ` · ${m.dietaryPreferences.join(", ")}` : "";
+      return {
+        id: m.id,
+        displayName: `${m.preferredName ?? m.firstName} ${m.lastName}`,
+        tier: m.tier,
+        hint: `${tierLabel} member · No. ${m.memberNumber}${dietary}`,
+      };
+    });
+}
 
 /**
  * The login screen.
@@ -19,7 +43,8 @@ export const metadata: Metadata = {
  * a hero band above the panel. No clutter — single email field, one
  * call to action, the year 1922 as the only chrome detail.
  */
-export default function LoginPage() {
+export default async function LoginPage() {
+  const demoMembers = await loadDemoMembers();
   return (
     <main className="grid min-h-dvh grid-cols-1 lg:grid-cols-[1.6fr_1fr]">
       {/* Left — cinematic photography ----------------------------- */}
@@ -89,7 +114,7 @@ export default function LoginPage() {
               </p>
             </header>
 
-            <LoginForm />
+            <LoginForm demoMembers={demoMembers} />
 
             <hr className="hairline mt-16" />
 
