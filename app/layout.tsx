@@ -70,7 +70,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { readonly children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
+    <html lang="en" data-theme="parchment" className={`${serif.variable} ${sans.variable}`}>
       <body>{children}</body>
     </html>
   );
