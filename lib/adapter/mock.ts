@@ -362,6 +362,25 @@ export class MockAdapter implements ClubEssentialAdapter {
     return ephemeralRsvps.filter((r) => r.memberId === memberId);
   }
 
+  // ---- Staff-side reads ----------------------------------------
+  async listReservationsByDate({
+    date,
+    venueId,
+  }: {
+    date: string;
+    venueId?: string;
+  }): Promise<ReadonlyArray<DiningReservation>> {
+    const all = [...ephemeralReservations, ...reservations];
+    return all
+      .filter((r) => r.time.startsWith(date))
+      .filter((r) => (venueId ? r.venueId === venueId : true))
+      .sort((a, b) => a.time.localeCompare(b.time));
+  }
+
+  async listEventRsvps(eventId: string): Promise<ReadonlyArray<EventRsvp>> {
+    return ephemeralRsvps.filter((r) => r.eventId === eventId);
+  }
+
   // ---- House account -------------------------------------------
   async getMemberStatement({
     memberId,

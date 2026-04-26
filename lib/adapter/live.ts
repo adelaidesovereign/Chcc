@@ -147,6 +147,17 @@ export class LiveAdapter implements ClubEssentialAdapter {
     throw new NotImplementedError("LiveAdapter.getMemberRsvps");
   }
 
+  // ---- Staff-side reads -----------------------------------------
+  listReservationsByDate(_p: {
+    date: string;
+    venueId?: string;
+  }): Promise<ReadonlyArray<DiningReservation>> {
+    throw new NotImplementedError("LiveAdapter.listReservationsByDate");
+  }
+  listEventRsvps(_eventId: string): Promise<ReadonlyArray<EventRsvp>> {
+    throw new NotImplementedError("LiveAdapter.listEventRsvps");
+  }
+
   // ---- House account -------------------------------------------
   getMemberStatement(_p: {
     memberId: string;

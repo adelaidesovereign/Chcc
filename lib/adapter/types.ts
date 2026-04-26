@@ -373,6 +373,13 @@ export interface ClubEssentialAdapter {
   }): Promise<EventRsvp>;
   getMemberRsvps(memberId: string): Promise<ReadonlyArray<EventRsvp>>;
 
+  // -- Staff-side reads (operations dashboards) -------------------
+  listReservationsByDate(params: {
+    readonly date: string; // YYYY-MM-DD
+    readonly venueId?: string;
+  }): Promise<ReadonlyArray<DiningReservation>>;
+  listEventRsvps(eventId: string): Promise<ReadonlyArray<EventRsvp>>;
+
   // -- House account ----------------------------------------------
   getMemberStatement(params: {
     readonly memberId: string;

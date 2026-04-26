@@ -1,7 +1,13 @@
+import { redirect } from "next/navigation";
+import { getCurrentMember } from "@/lib/session";
+
 /**
- * Staff route group — Phase 4.
- * Empty in Phase 1; placeholder to reserve the segment.
+ * Staff route group. Phase 4 demo: any signed-in member can switch
+ * into staff view. Real role-based gating arrives in Phase 5 alongside
+ * the live ClubEssential adapter.
  */
-export default function StaffLayout({ children }: { readonly children: React.ReactNode }) {
+export default async function StaffLayout({ children }: { readonly children: React.ReactNode }) {
+  const member = await getCurrentMember();
+  if (!member) redirect("/login?next=/staff");
   return <div data-theme="hearth">{children}</div>;
 }

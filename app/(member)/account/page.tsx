@@ -125,12 +125,19 @@ export default async function AccountPage() {
         </Card>
       </section>
 
-      <footer className="mt-12 border-t border-[color:var(--color-border-subtle)] pt-6 text-center">
+      <footer className="mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 border-t border-[color:var(--color-border-subtle)] pt-6 text-center">
         <Link
           href="/directory"
           className="text-sm font-medium text-[color:var(--color-accent-deep)] hover:underline"
         >
           See your member directory entry →
+        </Link>
+        <span className="hidden text-[color:var(--color-text-muted)] sm:inline">·</span>
+        <Link
+          href="/staff"
+          className="text-sm font-medium text-[color:var(--color-accent-deep)] hover:underline"
+        >
+          Switch to staff view →
         </Link>
       </footer>
     </MemberShell>
