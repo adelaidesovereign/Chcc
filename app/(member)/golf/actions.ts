@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { z } from "zod";
 import { getAdapter } from "@/lib/adapter";
 import { requireCurrentMember } from "@/lib/session";
+import { recordAudit } from "@/lib/audit";
 
 const inputSchema = z.object({
   time: z.string().min(1),
@@ -48,6 +49,17 @@ export async function bookTeeTime(
     guestNames,
     cartCount: parsed.data.cartCount,
     nineHoleOnly: parsed.data.nineHoleOnly === "true",
+  });
+
+  recordAudit({
+    action: "tee_time.create",
+    actorMemberId: member.id,
+    resourceId: teeTime.id,
+    metadata: {
+      cartCount: parsed.data.cartCount,
+      guests: guestNames.length,
+      nineHole: parsed.data.nineHoleOnly === "true",
+    },
   });
 
   revalidatePath("/home");

@@ -31,6 +31,22 @@ export type MembershipTier =
 
 export type MemberStatus = "active" | "inactive" | "suspended" | "leave-of-absence";
 
+/**
+ * Staff role assignments. A "member" is a regular club member with no
+ * staff access. Staff roles unlock specific operational surfaces.
+ *
+ * Phase 5: real role check from ClubEssential. Phase 4 demo: stored on
+ * the mock member record directly.
+ */
+export type StaffRole =
+  | "member"
+  | "staff" // generic front-desk
+  | "gm" // general manager — full access
+  | "fnb" // food & beverage director
+  | "golf-pro"
+  | "racquets-pro"
+  | "membership-director";
+
 export interface Member {
   readonly id: string;
   readonly memberNumber: string;
@@ -48,6 +64,8 @@ export interface Member {
   readonly dietaryPreferences: ReadonlyArray<string>;
   readonly avatarUrl?: string;
   readonly bio?: string;
+  /** Staff role; "member" (default) means no operational access. */
+  readonly role: StaffRole;
 }
 
 export interface Household {

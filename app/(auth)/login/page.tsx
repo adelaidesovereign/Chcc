@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: `Members of ${clubConfig.name} — sign in to your account.`,
 };
 
-const DEMO_MEMBER_IDS = ["M-0003", "M-0001", "M-0004"] as const;
+const DEMO_MEMBER_IDS = ["M-0001", "M-0003", "M-0004"] as const;
 
 async function loadDemoMembers() {
   if (clubConfig.integration.mode !== "mock") return [];
@@ -25,11 +25,19 @@ async function loadDemoMembers() {
         .map((p) => p[0]!.toUpperCase() + p.slice(1))
         .join(" ");
       const dietary = m.dietaryPreferences.length ? ` · ${m.dietaryPreferences.join(", ")}` : "";
+      const roleHint =
+        m.role === "gm"
+          ? " · General Manager"
+          : m.role === "fnb"
+            ? " · F&B Director"
+            : m.role === "golf-pro"
+              ? " · Director of Golf"
+              : "";
       return {
         id: m.id,
         displayName: `${m.preferredName ?? m.firstName} ${m.lastName}`,
         tier: m.tier,
-        hint: `${tierLabel} member · No. ${m.memberNumber}${dietary}`,
+        hint: `${tierLabel} member · No. ${m.memberNumber}${dietary}${roleHint}`,
       };
     });
 }

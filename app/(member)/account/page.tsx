@@ -5,6 +5,7 @@ import { MemberShell } from "@/components/layouts/MemberShell";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { formatLongDate, formatPrice, formatMonthDay } from "@/lib/format";
+import { isStaff } from "@/lib/staff";
 
 export const dynamic = "force-dynamic";
 
@@ -132,13 +133,17 @@ export default async function AccountPage() {
         >
           See your member directory entry →
         </Link>
-        <span className="hidden text-[color:var(--color-text-muted)] sm:inline">·</span>
-        <Link
-          href="/staff"
-          className="text-sm font-medium text-[color:var(--color-accent-deep)] hover:underline"
-        >
-          Switch to staff view →
-        </Link>
+        {isStaff(member) ? (
+          <>
+            <span className="hidden text-[color:var(--color-text-muted)] sm:inline">·</span>
+            <Link
+              href="/staff"
+              className="text-sm font-medium text-[color:var(--color-accent-deep)] hover:underline"
+            >
+              Switch to staff view →
+            </Link>
+          </>
+        ) : null}
       </footer>
     </MemberShell>
   );

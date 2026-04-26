@@ -6,6 +6,7 @@ import { StaffShell } from "@/components/layouts/StaffShell";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { greetingFor, formatLongDate, formatTime, todayISO, addDaysISO } from "@/lib/format";
+import { recentAudits, auditCountByAction } from "@/lib/audit";
 import type { DiningReservation, Member } from "@/lib/adapter/types";
 
 export const dynamic = "force-dynamic";
@@ -219,7 +220,101 @@ export default async function StaffHome() {
           </div>
         </section>
       ) : null}
+
+      {/* Activity feed */}
+      <section className="mt-12">
+        <div className="mb-6">
+          <p className="eyebrow">Last hour</p>
+          <h2 className="mt-2 font-serif text-2xl tracking-tight md:text-3xl">Activity</h2>
+        </div>
+        <ActivityPanel />
+      </section>
     </StaffShell>
+  );
+}
+
+const ACTION_LABELS: Record<string, string> = {
+  "auth.sign_in": "Member signed in",
+  "auth.sign_out": "Member signed out",
+  "reservation.create": "Reservation booked",
+  "reservation.cancel": "Reservation cancelled",
+  "tee_time.create": "Tee time booked",
+  "tee_time.cancel": "Tee time cancelled",
+  "court.create": "Court reserved",
+  "rsvp.create": "Event RSVP",
+  "rsvp.update": "RSVP updated",
+  "charge.post": "House-account charge",
+  "concierge.ask": "Concierge query",
+  "staff.view_reservations": "Staff viewed reservations",
+  "staff.view_member": "Staff viewed member",
+  "payment.checkout_started": "Payment started",
+  "payment.succeeded": "Payment succeeded",
+};
+
+function ActivityPanel() {
+  const audits = recentAudits(20);
+  const counts = auditCountByAction(60);
+  const totals = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 4);
+
+  return (
+    <div className="grid gap-6 lg:grid-cols-[1fr_2fr]">
+      <Card variant="outlined">
+        <CardContent className="space-y-4 py-6">
+          <p className="eyebrow">By type · last hour</p>
+          {totals.length === 0 ? (
+            <p className="text-sm text-[color:var(--color-text-muted)]">
+              No activity yet. As members book and ask the concierge, this fills in.
+            </p>
+          ) : (
+            <ul className="space-y-3 text-sm">
+              {totals.map(([action, count]) => (
+                <li key={action} className="flex items-baseline justify-between gap-4">
+                  <span className="text-[color:var(--color-text-secondary)]">
+                    {ACTION_LABELS[action] ?? action}
+                  </span>
+                  <span className="font-serif text-base text-[color:var(--color-text-emphasis)] tabular-nums">
+                    {count}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </CardContent>
+      </Card>
+      <Card variant="outlined">
+        <CardContent className="p-0">
+          {audits.length === 0 ? (
+            <div className="py-12 text-center text-sm text-[color:var(--color-text-muted)]">
+              No activity yet.
+            </div>
+          ) : (
+            <ul className="divide-y divide-[color:var(--color-border-subtle)]">
+              {audits.map((a) => (
+                <li
+                  key={a.id}
+                  className="flex items-baseline justify-between gap-4 px-6 py-3 text-sm"
+                >
+                  <div className="min-w-0">
+                    <div className="text-[color:var(--color-text-primary)]">
+                      {ACTION_LABELS[a.action] ?? a.action}
+                    </div>
+                    {a.actorMemberId ? (
+                      <div className="text-xs text-[color:var(--color-text-muted)]">
+                        {a.actorMemberId}
+                        {a.resourceId ? ` · ${a.resourceId}` : ""}
+                      </div>
+                    ) : null}
+                  </div>
+                  <time className="text-xs text-[color:var(--color-text-muted)] tabular-nums">
+                    {formatTime(a.occurredAt)}
+                  </time>
+                </li>
+              ))}
+            </ul>
+          )}
+        </CardContent>
+      </Card>
+    </div>
   );
 }
 

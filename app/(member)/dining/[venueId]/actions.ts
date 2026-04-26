@@ -5,6 +5,10 @@ import { redirect } from "next/navigation";
 import { z } from "zod";
 import { getAdapter } from "@/lib/adapter";
 import { requireCurrentMember } from "@/lib/session";
+import { recordAudit } from "@/lib/audit";
+import { sendReservationConfirmation } from "@/lib/email";
+import { clubConfig } from "@/club.config";
+import { formatLongDate, formatTime } from "@/lib/format";
 
 const inputSchema = z.object({
   venueId: z.string().min(1),
@@ -47,6 +51,36 @@ export async function bookReservation(
     partySize: parsed.data.partySize,
     notes: parsed.data.notes,
     occasion: parsed.data.occasion,
+  });
+
+  recordAudit({
+    action: "reservation.create",
+    actorMemberId: member.id,
+    resourceId: reservation.id,
+    metadata: {
+      venueId: parsed.data.venueId,
+      partySize: parsed.data.partySize,
+      hasOccasion: Boolean(parsed.data.occasion),
+      hasNotes: Boolean(parsed.data.notes),
+    },
+  });
+
+  // Fire-and-forget confirmation email. Skipped in demo mode.
+  const venueName =
+    clubConfig.diningVenues.find((v) => v.id === parsed.data.venueId)?.name ?? parsed.data.venueId;
+  void sendReservationConfirmation(member.email, {
+    clubName: clubConfig.name,
+    memberName: member.preferredName ?? member.firstName,
+    venueName,
+    date: formatLongDate(parsed.data.time),
+    time: formatTime(parsed.data.time),
+    partySize: parsed.data.partySize,
+    occasion: parsed.data.occasion,
+    notes: parsed.data.notes,
+    dietaryFlags: member.dietaryPreferences.map((d) => d.replace(/-/g, " ")),
+    manageUrl: `${process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"}/dining`,
+  }).catch(() => {
+    // Never block confirmation on email failures.
   });
 
   revalidatePath("/home");

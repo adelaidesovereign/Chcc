@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { clubConfig } from "@/club.config";
 import { cn } from "@/lib/utils";
+import { roleLabel } from "@/lib/staff";
 import type { Member } from "@/lib/adapter/types";
 
 interface StaffShellProps {
@@ -42,7 +43,7 @@ export function StaffShell({ member, children, current = "home" }: StaffShellPro
                 {clubConfig.shortName}
               </div>
               <span className="text-[10px] tracking-[var(--tracking-widest)] text-[color:var(--color-accent-deep)] uppercase">
-                Staff
+                {roleLabel(member.role)}
               </span>
             </div>
           </Link>

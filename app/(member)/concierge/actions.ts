@@ -3,6 +3,7 @@
 import { z } from "zod";
 import { requireCurrentMember } from "@/lib/session";
 import { runConcierge, type ConciergeMessage } from "@/lib/concierge/run";
+import { recordAudit } from "@/lib/audit";
 
 const messageSchema = z.object({
   role: z.enum(["user", "assistant"]),
@@ -40,7 +41,16 @@ export async function ask(prev: AskState, formData: FormData): Promise<AskState>
   ];
 
   try {
-    const { reply, source } = await runConcierge(newHistory, member);
+    const { reply, source, toolsCalled } = await runConcierge(newHistory, member);
+    recordAudit({
+      action: "concierge.ask",
+      actorMemberId: member.id,
+      metadata: {
+        source,
+        tools: toolsCalled.length,
+        messageLen: message.length,
+      },
+    });
     return {
       status: "ok",
       history: [...newHistory, { role: "assistant", content: reply }],

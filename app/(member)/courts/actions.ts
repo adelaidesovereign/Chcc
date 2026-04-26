@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { z } from "zod";
 import { getAdapter } from "@/lib/adapter";
 import { requireCurrentMember } from "@/lib/session";
+import { recordAudit } from "@/lib/audit";
 
 const inputSchema = z.object({
   courtId: z.string().min(1),
@@ -43,12 +44,23 @@ export async function bookCourt(
         .filter(Boolean)
     : [];
 
-  await adapter.createCourtReservation({
+  const reservation = await adapter.createCourtReservation({
     memberId: member.id,
     courtId: parsed.data.courtId,
     time: parsed.data.time,
     durationMinutes: parsed.data.durationMinutes,
     guestNames,
+  });
+
+  recordAudit({
+    action: "court.create",
+    actorMemberId: member.id,
+    resourceId: reservation.id,
+    metadata: {
+      courtId: parsed.data.courtId,
+      durationMinutes: parsed.data.durationMinutes,
+      guests: guestNames.length,
+    },
   });
 
   revalidatePath("/courts");

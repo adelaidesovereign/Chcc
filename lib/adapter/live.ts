@@ -1,13 +1,18 @@
 /**
  * LiveAdapter — calls ClubEssential's REST API.
  *
- * STUBBED for Phase 1. Every method throws NotImplementedError with a
- * clear message about needing API credentials. The shape of every
- * method matches the interface exactly so callers can rely on
- * compile-time checking.
+ * Phase 5 scaffolding. The HTTP client + auth + base URL are wired,
+ * but every concrete method still throws NotImplementedError because
+ * the request/response shapes have to be confirmed against
+ * ClubEssential's actual documentation.
  *
- * When ClubEssential access is granted (Phase 5), implement each method
- * here and never touch call sites.
+ * When integration begins:
+ *   1. Replace each `notImpl(...)` with `this.client.get(...)` etc.
+ *   2. Translate ClubEssential's response shape into our domain types
+ *      inside this file. Never leak their schema upward.
+ *   3. Add response validation with zod for safety.
+ *   4. Wire structured errors (rate limits, auth failures, 5xx) so
+ *      the UI can show recoverable states.
  */
 
 import type {
@@ -39,63 +44,114 @@ import type {
   RsvpStatus,
   TeeTime,
 } from "./types";
-import { NotImplementedError } from "./types";
+import { NotImplementedError, AdapterError } from "./types";
+
+interface LiveAdapterConfig {
+  readonly apiBase: string;
+  readonly apiKey: string;
+  readonly clubId: string;
+}
+
+/**
+ * Thin HTTP client. Adds bearer auth, club id header, JSON
+ * marshalling, and error normalisation. Every adapter method goes
+ * through here when implemented.
+ */
+class CeHttpClient {
+  constructor(private readonly config: LiveAdapterConfig) {}
+
+  async get<T>(path: string, params?: Record<string, string | number | undefined>): Promise<T> {
+    const url = new URL(path, this.config.apiBase);
+    if (params) {
+      for (const [k, v] of Object.entries(params)) {
+        if (v !== undefined) url.searchParams.set(k, String(v));
+      }
+    }
+    return this.request<T>(url, { method: "GET" });
+  }
+
+  async post<T>(path: string, body: unknown): Promise<T> {
+    const url = new URL(path, this.config.apiBase);
+    return this.request<T>(url, {
+      method: "POST",
+      body: JSON.stringify(body),
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  private async request<T>(url: URL, init: RequestInit): Promise<T> {
+    const response = await fetch(url, {
+      ...init,
+      headers: {
+        ...init.headers,
+        Authorization: `Bearer ${this.config.apiKey}`,
+        "X-Club-Id": this.config.clubId,
+        Accept: "application/json",
+      },
+      cache: "no-store",
+    });
+    if (!response.ok) {
+      const text = await response.text().catch(() => "");
+      throw new AdapterError(
+        `ClubEssential ${response.status}: ${text || response.statusText}`,
+        `HTTP_${response.status}`,
+      );
+    }
+    return (await response.json()) as T;
+  }
+}
 
 export class LiveAdapter implements ClubEssentialAdapter {
-  constructor(
-    private readonly _config: {
-      readonly apiBase: string;
-      readonly apiKey: string;
-      readonly clubId: string;
-    },
-  ) {
-    // Configuration kept for the eventual implementation. Marked _ to
-    // satisfy strict unused-args without removing the constructor.
-    void this._config;
+  private readonly client: CeHttpClient;
+
+  constructor(config: LiveAdapterConfig) {
+    this.client = new CeHttpClient(config);
+    // Mark client used until methods are wired (avoids unused warning).
+    void this.client;
   }
 
   // ---- Members --------------------------------------------------
   getMember(_id: string): Promise<Member | null> {
-    throw new NotImplementedError("LiveAdapter.getMember");
+    return notImpl("getMember");
   }
   listMembers(_params?: PaginationParams): Promise<PaginatedResult<Member>> {
-    throw new NotImplementedError("LiveAdapter.listMembers");
+    return notImpl("listMembers");
   }
   searchMembers(_params: MemberSearchParams): Promise<ReadonlyArray<MemberDirectoryEntry>> {
-    throw new NotImplementedError("LiveAdapter.searchMembers");
+    return notImpl("searchMembers");
   }
 
   // ---- Authentication ------------------------------------------
   validateMemberCredentials(_input: MemberCredentials): Promise<CredentialValidationResult> {
-    throw new NotImplementedError("LiveAdapter.validateMemberCredentials");
+    return notImpl("validateMemberCredentials");
   }
 
   // ---- Dining ---------------------------------------------------
   listDiningVenues(): Promise<ReadonlyArray<DiningVenueSummary>> {
-    throw new NotImplementedError("LiveAdapter.listDiningVenues");
+    return notImpl("listDiningVenues");
   }
   listAvailableTimes(_p: {
     venueId: string;
     date: string;
     partySize: number;
   }): Promise<ReadonlyArray<AvailableDiningTime>> {
-    throw new NotImplementedError("LiveAdapter.listAvailableTimes");
+    return notImpl("listAvailableTimes");
   }
   createReservation(_input: CreateReservationInput): Promise<DiningReservation> {
-    throw new NotImplementedError("LiveAdapter.createReservation");
+    return notImpl("createReservation");
   }
   getReservation(_id: string): Promise<DiningReservation | null> {
-    throw new NotImplementedError("LiveAdapter.getReservation");
+    return notImpl("getReservation");
   }
   cancelReservation(_id: string): Promise<DiningReservation> {
-    throw new NotImplementedError("LiveAdapter.cancelReservation");
+    return notImpl("cancelReservation");
   }
   listMemberReservations(_p: {
     memberId: string;
     from?: string;
     to?: string;
   }): Promise<ReadonlyArray<DiningReservation>> {
-    throw new NotImplementedError("LiveAdapter.listMemberReservations");
+    return notImpl("listMemberReservations");
   }
 
   // ---- Tee times -----------------------------------------------
@@ -103,16 +159,16 @@ export class LiveAdapter implements ClubEssentialAdapter {
     date: string;
     players: 1 | 2 | 3 | 4;
   }): Promise<ReadonlyArray<AvailableTeeTime>> {
-    throw new NotImplementedError("LiveAdapter.listAvailableTeeTimes");
+    return notImpl("listAvailableTeeTimes");
   }
   createTeeTime(_input: CreateTeeTimeInput): Promise<TeeTime> {
-    throw new NotImplementedError("LiveAdapter.createTeeTime");
+    return notImpl("createTeeTime");
   }
   getTeeTime(_id: string): Promise<TeeTime | null> {
-    throw new NotImplementedError("LiveAdapter.getTeeTime");
+    return notImpl("getTeeTime");
   }
   cancelTeeTime(_id: string): Promise<TeeTime> {
-    throw new NotImplementedError("LiveAdapter.cancelTeeTime");
+    return notImpl("cancelTeeTime");
   }
 
   // ---- Courts ---------------------------------------------------
@@ -121,18 +177,18 @@ export class LiveAdapter implements ClubEssentialAdapter {
     date: string;
     durationMinutes: 30 | 60 | 90 | 120;
   }): Promise<ReadonlyArray<AvailableCourt>> {
-    throw new NotImplementedError("LiveAdapter.listAvailableCourts");
+    return notImpl("listAvailableCourts");
   }
   createCourtReservation(_input: CreateCourtReservationInput): Promise<CourtReservation> {
-    throw new NotImplementedError("LiveAdapter.createCourtReservation");
+    return notImpl("createCourtReservation");
   }
 
   // ---- Events ---------------------------------------------------
   listEvents(_p?: { from?: string; category?: EventCategory }): Promise<ReadonlyArray<ClubEvent>> {
-    throw new NotImplementedError("LiveAdapter.listEvents");
+    return notImpl("listEvents");
   }
   getEvent(_id: string): Promise<ClubEvent | null> {
-    throw new NotImplementedError("LiveAdapter.getEvent");
+    return notImpl("getEvent");
   }
   rsvpToEvent(_input: {
     eventId: string;
@@ -141,10 +197,10 @@ export class LiveAdapter implements ClubEssentialAdapter {
     partySize: number;
     guestNames?: ReadonlyArray<string>;
   }): Promise<EventRsvp> {
-    throw new NotImplementedError("LiveAdapter.rsvpToEvent");
+    return notImpl("rsvpToEvent");
   }
   getMemberRsvps(_memberId: string): Promise<ReadonlyArray<EventRsvp>> {
-    throw new NotImplementedError("LiveAdapter.getMemberRsvps");
+    return notImpl("getMemberRsvps");
   }
 
   // ---- Staff-side reads -----------------------------------------
@@ -152,10 +208,10 @@ export class LiveAdapter implements ClubEssentialAdapter {
     date: string;
     venueId?: string;
   }): Promise<ReadonlyArray<DiningReservation>> {
-    throw new NotImplementedError("LiveAdapter.listReservationsByDate");
+    return notImpl("listReservationsByDate");
   }
   listEventRsvps(_eventId: string): Promise<ReadonlyArray<EventRsvp>> {
-    throw new NotImplementedError("LiveAdapter.listEventRsvps");
+    return notImpl("listEventRsvps");
   }
 
   // ---- House account -------------------------------------------
@@ -164,25 +220,29 @@ export class LiveAdapter implements ClubEssentialAdapter {
     periodStart: string;
     periodEnd: string;
   }): Promise<MemberStatement> {
-    throw new NotImplementedError("LiveAdapter.getMemberStatement");
+    return notImpl("getMemberStatement");
   }
   postCharge(_input: PostChargeInput): Promise<HouseCharge> {
-    throw new NotImplementedError("LiveAdapter.postCharge");
+    return notImpl("postCharge");
   }
   listRecentCharges(_p: { memberId: string; limit?: number }): Promise<ReadonlyArray<HouseCharge>> {
-    throw new NotImplementedError("LiveAdapter.listRecentCharges");
+    return notImpl("listRecentCharges");
   }
 
   // ---- Directory ------------------------------------------------
   listDirectory(_params?: PaginationParams): Promise<PaginatedResult<MemberDirectoryEntry>> {
-    throw new NotImplementedError("LiveAdapter.listDirectory");
+    return notImpl("listDirectory");
   }
   getMemberProfile(_id: string): Promise<MemberDirectoryEntry | null> {
-    throw new NotImplementedError("LiveAdapter.getMemberProfile");
+    return notImpl("getMemberProfile");
   }
 
   // ---- Menus ----------------------------------------------------
   listMenusForDate(_p: { date: string; venueId?: string }): Promise<ReadonlyArray<DailyMenu>> {
-    throw new NotImplementedError("LiveAdapter.listMenusForDate");
+    return notImpl("listMenusForDate");
   }
+}
+
+function notImpl(method: string): never {
+  throw new NotImplementedError(`LiveAdapter.${method}`);
 }

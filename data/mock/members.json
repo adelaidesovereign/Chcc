@@ -11,7 +11,8 @@
     "status": "active",
     "joinedOn": "2022-03-16",
     "birthday": "1948-04-03",
-    "dietaryPreferences": ["pescatarian"]
+    "dietaryPreferences": ["pescatarian"],
+    "role": "member"
   },
   {
     "id": "M-0002",
@@ -27,7 +28,8 @@
     "joinedOn": "1986-12-20",
     "anniversaryDate": "1988-09-13",
     "birthday": "1958-12-21",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0003",
@@ -35,14 +37,16 @@
     "householdId": "HH-0002",
     "firstName": "Augusta",
     "lastName": "Cavendish",
-    "email": "augusta.cavendish@example.com",
+    "email": "augusta.cavendish@chapelhillcc.com",
     "phone": "(919) 317-3052",
     "tier": "founder",
     "status": "active",
     "joinedOn": "1995-01-24",
     "anniversaryDate": "2003-04-02",
     "birthday": "1946-02-13",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "gm",
+    "preferredName": "Augusta"
   },
   {
     "id": "M-0004",
@@ -51,14 +55,15 @@
     "firstName": "Frances",
     "lastName": "Rutherford",
     "preferredName": "Frances",
-    "email": "frances.rutherford@example.com",
+    "email": "frances.rutherford@chapelhillcc.com",
     "phone": "(919) 610-9232",
     "tier": "social",
     "status": "active",
     "joinedOn": "1991-04-05",
     "anniversaryDate": "2006-02-02",
     "birthday": "1984-12-01",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "fnb"
   },
   {
     "id": "M-0005",
@@ -66,12 +71,13 @@
     "householdId": "HH-0003",
     "firstName": "Elizabeth",
     "lastName": "Rutherford",
-    "email": "elizabeth.rutherford.j@example.com",
+    "email": "golf-pro@chapelhillcc.com",
     "tier": "young-executive",
     "status": "active",
     "joinedOn": "2017-07-11",
     "birthday": "1999-04-14",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "golf-pro"
   },
   {
     "id": "M-0006",
@@ -84,7 +90,8 @@
     "status": "active",
     "joinedOn": "2023-04-10",
     "birthday": "2002-12-01",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0007",
@@ -97,7 +104,8 @@
     "status": "active",
     "joinedOn": "2018-11-20",
     "birthday": "2007-10-25",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0008",
@@ -112,7 +120,8 @@
     "joinedOn": "2015-02-19",
     "anniversaryDate": "1996-09-24",
     "birthday": "1972-01-01",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0009",
@@ -125,7 +134,8 @@
     "status": "active",
     "joinedOn": "2018-11-24",
     "birthday": "2004-08-16",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0010",
@@ -140,7 +150,8 @@
     "joinedOn": "1987-05-05",
     "anniversaryDate": "2010-05-01",
     "birthday": "1967-02-19",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0011",
@@ -155,7 +166,8 @@
     "joinedOn": "1985-09-18",
     "anniversaryDate": "1985-04-07",
     "birthday": "1945-02-24",
-    "dietaryPreferences": ["dairy-free", "low-sodium"]
+    "dietaryPreferences": ["dairy-free", "low-sodium"],
+    "role": "member"
   },
   {
     "id": "M-0012",
@@ -169,7 +181,8 @@
     "status": "active",
     "joinedOn": "2009-08-21",
     "birthday": "1985-07-24",
-    "dietaryPreferences": ["shellfish-allergy"]
+    "dietaryPreferences": ["shellfish-allergy"],
+    "role": "member"
   },
   {
     "id": "M-0013",
@@ -182,7 +195,8 @@
     "status": "active",
     "joinedOn": "2012-02-23",
     "birthday": "2004-05-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0014",
@@ -195,7 +209,8 @@
     "status": "active",
     "joinedOn": "2022-06-07",
     "birthday": "2009-08-24",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0015",
@@ -208,7 +223,8 @@
     "status": "active",
     "joinedOn": "2013-10-13",
     "birthday": "2009-05-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0016",
@@ -224,7 +240,8 @@
     "joinedOn": "1991-03-28",
     "anniversaryDate": "1995-03-07",
     "birthday": "1987-03-16",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0017",
@@ -238,7 +255,8 @@
     "status": "active",
     "joinedOn": "2008-01-27",
     "birthday": "1993-09-21",
-    "dietaryPreferences": ["pescatarian"]
+    "dietaryPreferences": ["pescatarian"],
+    "role": "member"
   },
   {
     "id": "M-0018",
@@ -253,7 +271,8 @@
     "status": "active",
     "joinedOn": "2014-06-09",
     "birthday": "1942-09-12",
-    "dietaryPreferences": ["dairy-free"]
+    "dietaryPreferences": ["dairy-free"],
+    "role": "member"
   },
   {
     "id": "M-0019",
@@ -269,7 +288,8 @@
     "joinedOn": "2023-04-14",
     "anniversaryDate": "1999-08-21",
     "birthday": "1952-02-12",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0020",
@@ -282,7 +302,8 @@
     "status": "active",
     "joinedOn": "2012-03-18",
     "birthday": "1997-10-10",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0021",
@@ -297,7 +318,8 @@
     "joinedOn": "2000-10-16",
     "anniversaryDate": "2004-04-14",
     "birthday": "1957-02-23",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0022",
@@ -312,7 +334,8 @@
     "status": "active",
     "joinedOn": "1986-10-11",
     "birthday": "1944-01-28",
-    "dietaryPreferences": ["vegan"]
+    "dietaryPreferences": ["vegan"],
+    "role": "member"
   },
   {
     "id": "M-0023",
@@ -325,7 +348,8 @@
     "status": "active",
     "joinedOn": "2019-03-03",
     "birthday": "2006-02-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0024",
@@ -338,7 +362,8 @@
     "status": "active",
     "joinedOn": "2013-07-25",
     "birthday": "1998-10-21",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0025",
@@ -354,7 +379,8 @@
     "joinedOn": "1997-02-28",
     "anniversaryDate": "2002-02-20",
     "birthday": "1966-09-10",
-    "dietaryPreferences": ["gluten-free", "nut-allergy"]
+    "dietaryPreferences": ["gluten-free", "nut-allergy"],
+    "role": "member"
   },
   {
     "id": "M-0026",
@@ -369,7 +395,8 @@
     "joinedOn": "1988-05-17",
     "anniversaryDate": "2015-12-19",
     "birthday": "1980-10-09",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0027",
@@ -384,7 +411,8 @@
     "joinedOn": "1994-10-12",
     "anniversaryDate": "2012-11-15",
     "birthday": "1994-04-18",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0028",
@@ -398,7 +426,8 @@
     "status": "inactive",
     "joinedOn": "2002-02-27",
     "birthday": "1960-02-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0029",
@@ -414,7 +443,8 @@
     "joinedOn": "2019-05-01",
     "anniversaryDate": "1998-04-07",
     "birthday": "1951-01-15",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0030",
@@ -427,7 +457,8 @@
     "status": "active",
     "joinedOn": "2021-11-22",
     "birthday": "2008-06-16",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0031",
@@ -440,7 +471,8 @@
     "status": "active",
     "joinedOn": "2010-09-05",
     "birthday": "2009-01-14",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0032",
@@ -453,7 +485,8 @@
     "status": "active",
     "joinedOn": "2024-11-15",
     "birthday": "2007-05-16",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0033",
@@ -468,7 +501,8 @@
     "status": "active",
     "joinedOn": "2001-02-28",
     "birthday": "1982-08-06",
-    "dietaryPreferences": ["vegetarian"]
+    "dietaryPreferences": ["vegetarian"],
+    "role": "member"
   },
   {
     "id": "M-0034",
@@ -483,7 +517,8 @@
     "joinedOn": "2004-03-03",
     "anniversaryDate": "1981-03-04",
     "birthday": "1983-05-03",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0035",
@@ -496,7 +531,8 @@
     "status": "active",
     "joinedOn": "2010-07-02",
     "birthday": "2000-10-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0036",
@@ -511,7 +547,8 @@
     "joinedOn": "2014-10-25",
     "anniversaryDate": "2010-01-15",
     "birthday": "1947-08-15",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0037",
@@ -526,7 +563,8 @@
     "joinedOn": "2019-06-21",
     "anniversaryDate": "1996-07-13",
     "birthday": "1968-12-05",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0038",
@@ -541,7 +579,8 @@
     "joinedOn": "1995-11-08",
     "anniversaryDate": "1991-06-16",
     "birthday": "1979-01-21",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0039",
@@ -555,7 +594,8 @@
     "status": "active",
     "joinedOn": "1988-07-28",
     "birthday": "1963-06-23",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0040",
@@ -568,7 +608,8 @@
     "status": "active",
     "joinedOn": "2022-05-08",
     "birthday": "2010-08-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0041",
@@ -581,7 +622,8 @@
     "status": "active",
     "joinedOn": "2023-01-10",
     "birthday": "2008-01-20",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0042",
@@ -596,7 +638,8 @@
     "joinedOn": "2020-10-03",
     "anniversaryDate": "1979-02-02",
     "birthday": "1951-05-19",
-    "dietaryPreferences": ["low-sodium"]
+    "dietaryPreferences": ["low-sodium"],
+    "role": "member"
   },
   {
     "id": "M-0043",
@@ -612,7 +655,8 @@
     "joinedOn": "1995-08-22",
     "anniversaryDate": "1977-08-03",
     "birthday": "1978-05-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0044",
@@ -626,7 +670,8 @@
     "status": "active",
     "joinedOn": "2024-09-08",
     "birthday": "1954-09-20",
-    "dietaryPreferences": ["vegan"]
+    "dietaryPreferences": ["vegan"],
+    "role": "member"
   },
   {
     "id": "M-0045",
@@ -639,7 +684,8 @@
     "status": "active",
     "joinedOn": "2014-06-25",
     "birthday": "2009-03-02",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0046",
@@ -654,7 +700,8 @@
     "joinedOn": "1990-11-26",
     "anniversaryDate": "2010-01-15",
     "birthday": "1963-05-10",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0047",
@@ -667,7 +714,8 @@
     "status": "active",
     "joinedOn": "2021-09-03",
     "birthday": "2003-04-28",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0048",
@@ -680,7 +728,8 @@
     "status": "active",
     "joinedOn": "2013-04-07",
     "birthday": "1999-01-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0049",
@@ -695,7 +744,8 @@
     "joinedOn": "2005-06-14",
     "anniversaryDate": "2016-03-11",
     "birthday": "1961-02-14",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0050",
@@ -710,7 +760,8 @@
     "joinedOn": "1994-09-07",
     "anniversaryDate": "1988-11-21",
     "birthday": "1958-01-14",
-    "dietaryPreferences": ["low-sodium"]
+    "dietaryPreferences": ["low-sodium"],
+    "role": "member"
   },
   {
     "id": "M-0051",
@@ -725,7 +776,8 @@
     "joinedOn": "2023-02-22",
     "anniversaryDate": "2000-12-03",
     "birthday": "1965-11-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0052",
@@ -741,7 +793,8 @@
     "joinedOn": "1986-07-08",
     "anniversaryDate": "1987-01-03",
     "birthday": "1991-11-28",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0053",
@@ -756,7 +809,8 @@
     "joinedOn": "1987-03-21",
     "anniversaryDate": "1987-10-13",
     "birthday": "1983-07-23",
-    "dietaryPreferences": ["vegan"]
+    "dietaryPreferences": ["vegan"],
+    "role": "member"
   },
   {
     "id": "M-0054",
@@ -771,7 +825,8 @@
     "joinedOn": "2009-07-20",
     "anniversaryDate": "2009-03-26",
     "birthday": "1974-07-23",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0055",
@@ -784,7 +839,8 @@
     "status": "active",
     "joinedOn": "2020-12-27",
     "birthday": "1996-06-09",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0056",
@@ -797,7 +853,8 @@
     "status": "active",
     "joinedOn": "2012-09-28",
     "birthday": "2006-08-28",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0057",
@@ -810,7 +867,8 @@
     "status": "active",
     "joinedOn": "2012-05-23",
     "birthday": "2003-02-06",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0058",
@@ -825,7 +883,8 @@
     "status": "active",
     "joinedOn": "2013-04-21",
     "birthday": "1962-12-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0059",
@@ -841,7 +900,8 @@
     "joinedOn": "1994-02-21",
     "anniversaryDate": "2016-10-21",
     "birthday": "1984-01-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0060",
@@ -854,7 +914,8 @@
     "status": "active",
     "joinedOn": "2012-12-15",
     "birthday": "2003-05-12",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0061",
@@ -869,7 +930,8 @@
     "joinedOn": "1992-05-04",
     "anniversaryDate": "1989-07-22",
     "birthday": "1990-06-10",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0062",
@@ -882,7 +944,8 @@
     "status": "active",
     "joinedOn": "2018-01-17",
     "birthday": "2009-11-17",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0063",
@@ -895,7 +958,8 @@
     "status": "active",
     "joinedOn": "2022-07-14",
     "birthday": "2008-10-25",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0064",
@@ -908,7 +972,8 @@
     "status": "active",
     "joinedOn": "2015-09-14",
     "birthday": "2009-01-15",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0065",
@@ -923,7 +988,8 @@
     "joinedOn": "1986-05-23",
     "anniversaryDate": "2008-11-07",
     "birthday": "1966-12-22",
-    "dietaryPreferences": ["pescatarian"]
+    "dietaryPreferences": ["pescatarian"],
+    "role": "member"
   },
   {
     "id": "M-0066",
@@ -938,7 +1004,8 @@
     "joinedOn": "1987-08-01",
     "anniversaryDate": "2011-06-17",
     "birthday": "1981-08-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0067",
@@ -954,7 +1021,8 @@
     "joinedOn": "1990-09-13",
     "anniversaryDate": "1979-01-10",
     "birthday": "1988-10-22",
-    "dietaryPreferences": ["nut-allergy"]
+    "dietaryPreferences": ["nut-allergy"],
+    "role": "member"
   },
   {
     "id": "M-0068",
@@ -967,7 +1035,8 @@
     "status": "active",
     "joinedOn": "2023-06-15",
     "birthday": "2006-03-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0069",
@@ -980,7 +1049,8 @@
     "status": "active",
     "joinedOn": "2020-03-10",
     "birthday": "1998-09-17",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0070",
@@ -995,7 +1065,8 @@
     "joinedOn": "2012-03-18",
     "anniversaryDate": "2000-04-28",
     "birthday": "1979-11-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0071",
@@ -1010,7 +1081,8 @@
     "joinedOn": "2000-10-14",
     "anniversaryDate": "1987-04-02",
     "birthday": "1966-09-15",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0072",
@@ -1023,7 +1095,8 @@
     "status": "active",
     "joinedOn": "2016-06-04",
     "birthday": "2003-02-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0073",
@@ -1036,7 +1109,8 @@
     "status": "active",
     "joinedOn": "2021-04-19",
     "birthday": "1999-11-22",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0074",
@@ -1051,7 +1125,8 @@
     "joinedOn": "2024-02-11",
     "anniversaryDate": "2010-09-22",
     "birthday": "1967-07-24",
-    "dietaryPreferences": ["nut-allergy", "vegan"]
+    "dietaryPreferences": ["nut-allergy", "vegan"],
+    "role": "member"
   },
   {
     "id": "M-0075",
@@ -1066,7 +1141,8 @@
     "joinedOn": "2010-09-09",
     "anniversaryDate": "1977-06-13",
     "birthday": "1975-01-26",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0076",
@@ -1081,7 +1157,8 @@
     "joinedOn": "2009-10-20",
     "anniversaryDate": "2012-12-09",
     "birthday": "1991-11-28",
-    "dietaryPreferences": ["gluten-free"]
+    "dietaryPreferences": ["gluten-free"],
+    "role": "member"
   },
   {
     "id": "M-0077",
@@ -1096,7 +1173,8 @@
     "status": "active",
     "joinedOn": "2024-06-07",
     "birthday": "1944-03-02",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0078",
@@ -1109,7 +1187,8 @@
     "status": "active",
     "joinedOn": "2010-04-26",
     "birthday": "2004-11-19",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0079",
@@ -1122,7 +1201,8 @@
     "status": "active",
     "joinedOn": "2018-07-21",
     "birthday": "2003-07-24",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0080",
@@ -1135,7 +1215,8 @@
     "status": "active",
     "joinedOn": "2011-09-16",
     "birthday": "1998-05-13",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0081",
@@ -1151,7 +1232,8 @@
     "joinedOn": "2019-03-21",
     "anniversaryDate": "1989-07-04",
     "birthday": "1976-02-09",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0082",
@@ -1166,7 +1248,8 @@
     "joinedOn": "2010-11-16",
     "anniversaryDate": "1994-04-05",
     "birthday": "1990-06-13",
-    "dietaryPreferences": ["halal", "halal"]
+    "dietaryPreferences": ["halal", "halal"],
+    "role": "member"
   },
   {
     "id": "M-0083",
@@ -1179,7 +1262,8 @@
     "status": "active",
     "joinedOn": "2018-02-27",
     "birthday": "2003-08-06",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0084",
@@ -1194,7 +1278,8 @@
     "joinedOn": "1985-03-27",
     "anniversaryDate": "2000-06-18",
     "birthday": "1963-11-22",
-    "dietaryPreferences": ["gluten-free"]
+    "dietaryPreferences": ["gluten-free"],
+    "role": "member"
   },
   {
     "id": "M-0085",
@@ -1210,7 +1295,8 @@
     "joinedOn": "1986-03-23",
     "anniversaryDate": "2011-06-23",
     "birthday": "1980-08-15",
-    "dietaryPreferences": ["nut-allergy"]
+    "dietaryPreferences": ["nut-allergy"],
+    "role": "member"
   },
   {
     "id": "M-0086",
@@ -1224,7 +1310,8 @@
     "status": "active",
     "joinedOn": "2005-09-18",
     "birthday": "1966-08-23",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0087",
@@ -1237,7 +1324,8 @@
     "status": "active",
     "joinedOn": "2024-09-27",
     "birthday": "1999-03-02",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0088",
@@ -1252,7 +1340,8 @@
     "joinedOn": "2020-06-14",
     "anniversaryDate": "1975-02-19",
     "birthday": "1967-12-22",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0089",
@@ -1265,7 +1354,8 @@
     "status": "active",
     "joinedOn": "2018-11-17",
     "birthday": "2005-08-02",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0090",
@@ -1278,7 +1368,8 @@
     "status": "active",
     "joinedOn": "2018-12-08",
     "birthday": "1998-10-09",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0091",
@@ -1294,7 +1385,8 @@
     "joinedOn": "2007-10-21",
     "anniversaryDate": "2005-07-02",
     "birthday": "1993-04-10",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0092",
@@ -1307,7 +1399,8 @@
     "status": "active",
     "joinedOn": "2012-03-26",
     "birthday": "2001-10-10",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0093",
@@ -1322,7 +1415,8 @@
     "joinedOn": "1997-09-13",
     "anniversaryDate": "2015-07-22",
     "birthday": "1961-03-19",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0094",
@@ -1335,7 +1429,8 @@
     "status": "active",
     "joinedOn": "2024-04-09",
     "birthday": "2010-02-17",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0095",
@@ -1348,7 +1443,8 @@
     "status": "active",
     "joinedOn": "2021-09-26",
     "birthday": "1999-02-24",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0096",
@@ -1363,7 +1459,8 @@
     "joinedOn": "2000-09-17",
     "anniversaryDate": "1995-09-24",
     "birthday": "1957-03-06",
-    "dietaryPreferences": ["halal"]
+    "dietaryPreferences": ["halal"],
+    "role": "member"
   },
   {
     "id": "M-0097",
@@ -1378,7 +1475,8 @@
     "joinedOn": "2009-10-14",
     "anniversaryDate": "1999-09-06",
     "birthday": "1981-01-05",
-    "dietaryPreferences": ["kosher"]
+    "dietaryPreferences": ["kosher"],
+    "role": "member"
   },
   {
     "id": "M-0098",
@@ -1391,7 +1489,8 @@
     "status": "active",
     "joinedOn": "2022-10-24",
     "birthday": "2004-08-12",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0099",
@@ -1404,7 +1503,8 @@
     "status": "active",
     "joinedOn": "2010-03-21",
     "birthday": "1999-10-22",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0100",
@@ -1417,7 +1517,8 @@
     "status": "active",
     "joinedOn": "2012-07-26",
     "birthday": "1998-05-03",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0101",
@@ -1432,7 +1533,8 @@
     "joinedOn": "2007-05-11",
     "anniversaryDate": "1993-10-24",
     "birthday": "1943-04-25",
-    "dietaryPreferences": ["dairy-free"]
+    "dietaryPreferences": ["dairy-free"],
+    "role": "member"
   },
   {
     "id": "M-0102",
@@ -1447,7 +1549,8 @@
     "status": "active",
     "joinedOn": "1992-04-13",
     "birthday": "1945-04-03",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0103",
@@ -1461,7 +1564,8 @@
     "status": "active",
     "joinedOn": "2020-09-19",
     "birthday": "1987-05-18",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0104",
@@ -1474,7 +1578,8 @@
     "status": "active",
     "joinedOn": "2023-11-21",
     "birthday": "2000-02-01",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0105",
@@ -1489,7 +1594,8 @@
     "joinedOn": "1988-02-23",
     "anniversaryDate": "2011-04-03",
     "birthday": "1966-05-03",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0106",
@@ -1502,7 +1608,8 @@
     "status": "active",
     "joinedOn": "2017-02-12",
     "birthday": "1998-02-10",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0107",
@@ -1516,7 +1623,8 @@
     "status": "active",
     "joinedOn": "2012-08-16",
     "birthday": "1994-05-17",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0108",
@@ -1531,7 +1639,8 @@
     "joinedOn": "2010-04-12",
     "anniversaryDate": "1997-11-01",
     "birthday": "1956-07-14",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0109",
@@ -1546,7 +1655,8 @@
     "joinedOn": "2018-02-13",
     "anniversaryDate": "2018-11-20",
     "birthday": "1978-07-03",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0110",
@@ -1559,7 +1669,8 @@
     "status": "active",
     "joinedOn": "2019-03-09",
     "birthday": "2010-01-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0111",
@@ -1572,7 +1683,8 @@
     "status": "active",
     "joinedOn": "2012-02-26",
     "birthday": "2005-11-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0112",
@@ -1585,7 +1697,8 @@
     "status": "active",
     "joinedOn": "2022-10-01",
     "birthday": "2005-06-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0113",
@@ -1600,7 +1713,8 @@
     "joinedOn": "1986-11-16",
     "anniversaryDate": "2012-01-23",
     "birthday": "1992-04-16",
-    "dietaryPreferences": ["vegan"]
+    "dietaryPreferences": ["vegan"],
+    "role": "member"
   },
   {
     "id": "M-0114",
@@ -1615,7 +1729,8 @@
     "joinedOn": "2001-08-04",
     "anniversaryDate": "1986-03-02",
     "birthday": "1952-08-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0115",
@@ -1629,7 +1744,8 @@
     "status": "active",
     "joinedOn": "2019-12-10",
     "birthday": "1979-08-28",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0116",
@@ -1643,7 +1759,8 @@
     "status": "active",
     "joinedOn": "1998-12-03",
     "birthday": "1954-09-14",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0117",
@@ -1658,7 +1775,8 @@
     "joinedOn": "2003-10-23",
     "anniversaryDate": "2003-10-25",
     "birthday": "1993-02-22",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0118",
@@ -1671,7 +1789,8 @@
     "status": "active",
     "joinedOn": "2019-03-04",
     "birthday": "2000-04-12",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0119",
@@ -1684,7 +1803,8 @@
     "status": "active",
     "joinedOn": "2019-03-02",
     "birthday": "2004-06-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0120",
@@ -1699,7 +1819,8 @@
     "joinedOn": "1998-04-24",
     "anniversaryDate": "1980-10-16",
     "birthday": "1979-05-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0121",
@@ -1713,7 +1834,8 @@
     "status": "active",
     "joinedOn": "2024-06-06",
     "birthday": "1943-02-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0122",
@@ -1728,7 +1850,8 @@
     "joinedOn": "2023-12-24",
     "anniversaryDate": "1977-03-17",
     "birthday": "1953-06-24",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0123",
@@ -1742,7 +1865,8 @@
     "status": "active",
     "joinedOn": "1986-04-24",
     "birthday": "1966-09-16",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0124",
@@ -1757,7 +1881,8 @@
     "joinedOn": "1999-05-12",
     "anniversaryDate": "2013-07-24",
     "birthday": "1940-03-15",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0125",
@@ -1770,7 +1895,8 @@
     "status": "active",
     "joinedOn": "2013-12-01",
     "birthday": "2008-01-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0126",
@@ -1786,7 +1912,8 @@
     "joinedOn": "2010-03-17",
     "anniversaryDate": "1976-08-17",
     "birthday": "1953-04-03",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0127",
@@ -1801,7 +1928,8 @@
     "joinedOn": "2003-01-26",
     "anniversaryDate": "1977-02-23",
     "birthday": "1953-08-23",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0128",
@@ -1814,7 +1942,8 @@
     "status": "active",
     "joinedOn": "2017-08-25",
     "birthday": "1999-10-22",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0129",
@@ -1827,7 +1956,8 @@
     "status": "active",
     "joinedOn": "2019-10-01",
     "birthday": "2001-03-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0130",
@@ -1841,7 +1971,8 @@
     "status": "active",
     "joinedOn": "1986-07-15",
     "birthday": "1987-02-12",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0131",
@@ -1855,7 +1986,8 @@
     "status": "active",
     "joinedOn": "2002-11-20",
     "birthday": "1976-11-06",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0132",
@@ -1871,7 +2003,8 @@
     "joinedOn": "2002-07-16",
     "anniversaryDate": "1997-09-11",
     "birthday": "1990-07-01",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0133",
@@ -1885,7 +2018,8 @@
     "status": "active",
     "joinedOn": "2019-03-24",
     "birthday": "1994-10-28",
-    "dietaryPreferences": ["gluten-free"]
+    "dietaryPreferences": ["gluten-free"],
+    "role": "member"
   },
   {
     "id": "M-0134",
@@ -1898,7 +2032,8 @@
     "status": "active",
     "joinedOn": "2022-09-20",
     "birthday": "1996-11-10",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0135",
@@ -1911,7 +2046,8 @@
     "status": "active",
     "joinedOn": "2013-02-18",
     "birthday": "1999-02-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0136",
@@ -1926,7 +2062,8 @@
     "joinedOn": "1996-07-02",
     "anniversaryDate": "1998-12-10",
     "birthday": "1961-08-01",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0137",
@@ -1939,7 +2076,8 @@
     "status": "active",
     "joinedOn": "2010-04-22",
     "birthday": "2002-01-03",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0138",
@@ -1953,7 +2091,8 @@
     "status": "active",
     "joinedOn": "2016-06-06",
     "birthday": "1942-03-17",
-    "dietaryPreferences": ["low-sodium"]
+    "dietaryPreferences": ["low-sodium"],
+    "role": "member"
   },
   {
     "id": "M-0139",
@@ -1968,7 +2107,8 @@
     "joinedOn": "1993-05-17",
     "anniversaryDate": "2012-10-09",
     "birthday": "1954-04-24",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0140",
@@ -1981,7 +2121,8 @@
     "status": "active",
     "joinedOn": "2014-09-20",
     "birthday": "1997-12-28",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0141",
@@ -1994,7 +2135,8 @@
     "status": "active",
     "joinedOn": "2020-05-10",
     "birthday": "2001-09-18",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0142",
@@ -2009,7 +2151,8 @@
     "joinedOn": "2021-09-28",
     "anniversaryDate": "1996-04-21",
     "birthday": "1966-03-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0143",
@@ -2024,7 +2167,8 @@
     "joinedOn": "1987-03-22",
     "anniversaryDate": "1991-08-26",
     "birthday": "1954-07-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0144",
@@ -2039,7 +2183,8 @@
     "joinedOn": "2011-10-02",
     "anniversaryDate": "1981-06-13",
     "birthday": "1940-01-11",
-    "dietaryPreferences": ["vegan"]
+    "dietaryPreferences": ["vegan"],
+    "role": "member"
   },
   {
     "id": "M-0145",
@@ -2054,7 +2199,8 @@
     "joinedOn": "1994-10-03",
     "anniversaryDate": "2016-10-28",
     "birthday": "1991-04-23",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0146",
@@ -2067,7 +2213,8 @@
     "status": "active",
     "joinedOn": "2018-11-27",
     "birthday": "2002-11-17",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0147",
@@ -2080,7 +2227,8 @@
     "status": "active",
     "joinedOn": "2011-03-25",
     "birthday": "1998-06-25",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0148",
@@ -2095,7 +2243,8 @@
     "joinedOn": "2024-06-27",
     "anniversaryDate": "1981-05-17",
     "birthday": "1961-01-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0149",
@@ -2109,7 +2258,8 @@
     "status": "active",
     "joinedOn": "2004-04-03",
     "birthday": "1986-11-15",
-    "dietaryPreferences": ["kosher"]
+    "dietaryPreferences": ["kosher"],
+    "role": "member"
   },
   {
     "id": "M-0150",
@@ -2124,7 +2274,8 @@
     "joinedOn": "1985-04-24",
     "anniversaryDate": "2002-05-21",
     "birthday": "1984-05-21",
-    "dietaryPreferences": ["kosher", "halal"]
+    "dietaryPreferences": ["kosher", "halal"],
+    "role": "member"
   },
   {
     "id": "M-0151",
@@ -2139,7 +2290,8 @@
     "joinedOn": "1986-10-25",
     "anniversaryDate": "1995-05-17",
     "birthday": "1945-06-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0152",
@@ -2152,7 +2304,8 @@
     "status": "active",
     "joinedOn": "2016-04-06",
     "birthday": "2001-06-22",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0153",
@@ -2165,7 +2318,8 @@
     "status": "active",
     "joinedOn": "2012-02-03",
     "birthday": "1998-08-05",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0154",
@@ -2180,7 +2334,8 @@
     "joinedOn": "1987-11-24",
     "anniversaryDate": "2005-10-07",
     "birthday": "1952-02-03",
-    "dietaryPreferences": ["halal", "halal"]
+    "dietaryPreferences": ["halal", "halal"],
+    "role": "member"
   },
   {
     "id": "M-0155",
@@ -2195,7 +2350,8 @@
     "joinedOn": "2007-01-19",
     "anniversaryDate": "1995-03-07",
     "birthday": "1979-02-14",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0156",
@@ -2210,7 +2366,8 @@
     "joinedOn": "2002-03-25",
     "anniversaryDate": "2006-02-25",
     "birthday": "1972-09-10",
-    "dietaryPreferences": ["low-sodium"]
+    "dietaryPreferences": ["low-sodium"],
+    "role": "member"
   },
   {
     "id": "M-0157",
@@ -2223,7 +2380,8 @@
     "status": "active",
     "joinedOn": "2012-08-18",
     "birthday": "1996-08-17",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0158",
@@ -2238,7 +2396,8 @@
     "joinedOn": "2017-07-13",
     "anniversaryDate": "1992-10-28",
     "birthday": "1977-11-03",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0159",
@@ -2252,7 +2411,8 @@
     "status": "active",
     "joinedOn": "1997-08-15",
     "birthday": "1994-12-24",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0160",
@@ -2267,7 +2427,8 @@
     "joinedOn": "2004-07-09",
     "anniversaryDate": "2011-10-10",
     "birthday": "1981-03-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0161",
@@ -2280,7 +2441,8 @@
     "status": "active",
     "joinedOn": "2021-05-13",
     "birthday": "2007-06-18",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0162",
@@ -2296,7 +2458,8 @@
     "joinedOn": "1993-10-08",
     "anniversaryDate": "1993-05-15",
     "birthday": "1971-09-21",
-    "dietaryPreferences": ["kosher"]
+    "dietaryPreferences": ["kosher"],
+    "role": "member"
   },
   {
     "id": "M-0163",
@@ -2311,7 +2474,8 @@
     "joinedOn": "2019-02-19",
     "anniversaryDate": "1999-06-23",
     "birthday": "1945-02-15",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0164",
@@ -2324,7 +2488,8 @@
     "status": "active",
     "joinedOn": "2016-01-26",
     "birthday": "1996-02-16",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0165",
@@ -2337,7 +2502,8 @@
     "status": "active",
     "joinedOn": "2020-11-02",
     "birthday": "2001-12-05",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0166",
@@ -2352,7 +2518,8 @@
     "joinedOn": "1999-05-06",
     "anniversaryDate": "2000-02-23",
     "birthday": "1946-06-06",
-    "dietaryPreferences": ["vegetarian", "gluten-free"]
+    "dietaryPreferences": ["vegetarian", "gluten-free"],
+    "role": "member"
   },
   {
     "id": "M-0167",
@@ -2367,7 +2534,8 @@
     "joinedOn": "2020-05-12",
     "anniversaryDate": "2008-11-21",
     "birthday": "1943-05-16",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0168",
@@ -2382,7 +2550,8 @@
     "joinedOn": "2005-07-05",
     "anniversaryDate": "2009-10-27",
     "birthday": "1952-06-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0169",
@@ -2398,7 +2567,8 @@
     "joinedOn": "2004-09-12",
     "anniversaryDate": "2009-10-03",
     "birthday": "1954-11-26",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0170",
@@ -2411,7 +2581,8 @@
     "status": "active",
     "joinedOn": "2011-12-24",
     "birthday": "2003-05-16",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0171",
@@ -2426,7 +2597,8 @@
     "joinedOn": "2021-02-01",
     "anniversaryDate": "2007-08-03",
     "birthday": "1960-06-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0172",
@@ -2440,7 +2612,8 @@
     "status": "active",
     "joinedOn": "2006-01-16",
     "birthday": "1951-02-10",
-    "dietaryPreferences": ["vegetarian"]
+    "dietaryPreferences": ["vegetarian"],
+    "role": "member"
   },
   {
     "id": "M-0173",
@@ -2454,7 +2627,8 @@
     "status": "active",
     "joinedOn": "2022-01-01",
     "birthday": "1955-08-12",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0174",
@@ -2469,7 +2643,8 @@
     "joinedOn": "2010-06-26",
     "anniversaryDate": "2016-11-17",
     "birthday": "1943-04-13",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0175",
@@ -2482,7 +2657,8 @@
     "status": "active",
     "joinedOn": "2011-12-10",
     "birthday": "2009-09-23",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0176",
@@ -2495,7 +2671,8 @@
     "status": "active",
     "joinedOn": "2024-11-02",
     "birthday": "1999-03-24",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0177",
@@ -2508,7 +2685,8 @@
     "status": "active",
     "joinedOn": "2018-01-18",
     "birthday": "1996-07-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0178",
@@ -2524,7 +2702,8 @@
     "joinedOn": "1989-04-25",
     "anniversaryDate": "1976-11-18",
     "birthday": "1940-03-10",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0179",
@@ -2537,7 +2716,8 @@
     "status": "active",
     "joinedOn": "2023-01-18",
     "birthday": "1996-12-25",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0180",
@@ -2551,7 +2731,8 @@
     "status": "active",
     "joinedOn": "1999-04-25",
     "birthday": "1970-09-23",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0181",
@@ -2566,7 +2747,8 @@
     "joinedOn": "2000-12-10",
     "anniversaryDate": "2007-02-19",
     "birthday": "1965-07-21",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0182",
@@ -2582,7 +2764,8 @@
     "joinedOn": "2012-10-03",
     "anniversaryDate": "1998-09-14",
     "birthday": "1967-10-09",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0183",
@@ -2596,7 +2779,8 @@
     "status": "active",
     "joinedOn": "2009-07-28",
     "birthday": "1989-06-03",
-    "dietaryPreferences": ["gluten-free"]
+    "dietaryPreferences": ["gluten-free"],
+    "role": "member"
   },
   {
     "id": "M-0184",
@@ -2612,7 +2796,8 @@
     "joinedOn": "2018-02-20",
     "anniversaryDate": "1984-11-13",
     "birthday": "1972-01-25",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0185",
@@ -2625,7 +2810,8 @@
     "status": "active",
     "joinedOn": "2013-04-12",
     "birthday": "1999-08-26",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0186",
@@ -2638,7 +2824,8 @@
     "status": "active",
     "joinedOn": "2023-08-23",
     "birthday": "1999-03-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0187",
@@ -2653,7 +2840,8 @@
     "joinedOn": "2008-12-18",
     "anniversaryDate": "1977-03-18",
     "birthday": "1970-08-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0188",
@@ -2668,7 +2856,8 @@
     "joinedOn": "1993-01-06",
     "anniversaryDate": "2010-04-02",
     "birthday": "1955-03-25",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0189",
@@ -2681,7 +2870,8 @@
     "status": "active",
     "joinedOn": "2013-01-04",
     "birthday": "2007-03-27",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0190",
@@ -2695,7 +2885,8 @@
     "status": "active",
     "joinedOn": "2019-01-13",
     "birthday": "1989-04-12",
-    "dietaryPreferences": ["low-sodium", "nut-allergy"]
+    "dietaryPreferences": ["low-sodium", "nut-allergy"],
+    "role": "member"
   },
   {
     "id": "M-0191",
@@ -2710,7 +2901,8 @@
     "joinedOn": "2022-01-01",
     "anniversaryDate": "2007-02-15",
     "birthday": "1977-06-19",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0192",
@@ -2725,7 +2917,8 @@
     "joinedOn": "1988-07-07",
     "anniversaryDate": "1975-01-08",
     "birthday": "1955-12-04",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0193",
@@ -2740,7 +2933,8 @@
     "joinedOn": "1985-05-10",
     "anniversaryDate": "2003-12-01",
     "birthday": "1979-03-17",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0194",
@@ -2753,7 +2947,8 @@
     "status": "active",
     "joinedOn": "2016-04-18",
     "birthday": "2008-11-13",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0195",
@@ -2766,7 +2961,8 @@
     "status": "active",
     "joinedOn": "2015-06-05",
     "birthday": "2007-09-28",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0196",
@@ -2779,7 +2975,8 @@
     "status": "active",
     "joinedOn": "2016-10-22",
     "birthday": "2004-03-06",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0197",
@@ -2794,7 +2991,8 @@
     "status": "active",
     "joinedOn": "2017-07-12",
     "birthday": "1987-04-24",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0198",
@@ -2810,7 +3008,8 @@
     "joinedOn": "2023-10-03",
     "anniversaryDate": "1980-10-02",
     "birthday": "1989-02-11",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0199",
@@ -2826,7 +3025,8 @@
     "joinedOn": "1988-10-13",
     "anniversaryDate": "2011-11-26",
     "birthday": "1956-02-06",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   },
   {
     "id": "M-0200",
@@ -2841,6 +3041,7 @@
     "status": "inactive",
     "joinedOn": "2020-10-15",
     "birthday": "1969-01-07",
-    "dietaryPreferences": []
+    "dietaryPreferences": [],
+    "role": "member"
   }
 ]
