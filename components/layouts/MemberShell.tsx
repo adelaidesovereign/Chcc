@@ -10,13 +10,23 @@ interface MemberShellProps {
   readonly current?: NavKey;
 }
 
-type NavKey = "home" | "dining" | "golf" | "courts" | "events" | "directory" | "account";
+type NavKey =
+  | "home"
+  | "dining"
+  | "golf"
+  | "courts"
+  | "events"
+  | "concierge"
+  | "directory"
+  | "account";
 
 const navItems: ReadonlyArray<{ key: NavKey; label: string; href: string }> = [
   { key: "home", label: "Home", href: "/home" },
   { key: "dining", label: "Dining", href: "/dining" },
   { key: "golf", label: "Golf", href: "/golf" },
   { key: "courts", label: "Racquets", href: "/courts" },
+  { key: "events", label: "Events", href: "/events" },
+  { key: "concierge", label: "Concierge", href: "/concierge" },
   { key: "directory", label: "Members", href: "/directory" },
 ];
 

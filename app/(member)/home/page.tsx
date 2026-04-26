@@ -243,6 +243,26 @@ export default async function MemberHome() {
         </section>
       ) : null}
 
+      {/* Concierge call-out */}
+      <section className="mt-12">
+        <Link
+          href="/concierge"
+          className="group flex items-center justify-between gap-6 overflow-hidden rounded-[var(--radius-lg)] border border-[color:var(--color-border-default)] bg-[color:var(--color-surface-inverse)] p-8 text-[color:var(--color-text-inverse)] transition-all hover:border-[color:var(--color-accent)]"
+        >
+          <div className="max-w-2xl">
+            <p className="font-sans text-xs tracking-[var(--tracking-widest)] text-[color:var(--color-accent-soft)] uppercase">
+              The Concierge
+            </p>
+            <p className="mt-3 font-serif text-2xl leading-tight tracking-tight md:text-3xl">
+              Ask anything — reservations, menus, events, the weather on the back nine.
+            </p>
+          </div>
+          <span className="hidden text-sm font-medium tracking-[var(--tracking-widest)] text-[color:var(--color-accent-soft)] uppercase transition-transform group-hover:translate-x-1 sm:inline">
+            Begin →
+          </span>
+        </Link>
+      </section>
+
       {/* Upcoming events */}
       {featuredEvents.length > 0 ? (
         <section className="mt-12">

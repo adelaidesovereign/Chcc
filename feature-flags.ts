@@ -32,31 +32,31 @@ interface FlagDefinition {
 
 const flags: Readonly<Record<FeatureFlag, FlagDefinition>> = {
   "ai-concierge": {
-    defaultValue: false,
+    defaultValue: true,
     description: "Anthropic-powered concierge — Phase 3.",
   },
   "dining-reservations": {
-    defaultValue: false,
+    defaultValue: true,
     description: "Member-facing dining reservation surface — Phase 2.",
   },
   "tee-time-booking": {
-    defaultValue: false,
+    defaultValue: true,
     description: "Tee time booking surface — Phase 2.",
   },
   "court-reservations": {
-    defaultValue: false,
+    defaultValue: true,
     description: "Tennis / pickleball / platform booking — Phase 2.",
   },
   "house-account": {
-    defaultValue: false,
+    defaultValue: true,
     description: "Member statement and recent charges view — Phase 5.",
   },
   "events-rsvp": {
-    defaultValue: false,
+    defaultValue: true,
     description: "Events listing and RSVP — Phase 3.",
   },
   "member-directory": {
-    defaultValue: false,
+    defaultValue: true,
     description: "Searchable member directory — Phase 2.",
   },
   "staff-dashboard": {
