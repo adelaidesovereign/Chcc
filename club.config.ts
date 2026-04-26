@@ -27,8 +27,8 @@ export const clubConfig: ClubConfig = {
   },
 
   brand: {
-    logoPath: "/club-assets/chcc-monogram.svg",
-    logoMarkPath: "/club-assets/chcc-monogram.svg",
+    logoPath: "/club-assets/chcc-monogram.png",
+    logoMarkPath: "/club-assets/chcc-monogram-trimmed.png",
     faviconPath: "/icons/favicon.svg",
     tagline: "Chapel Hill's Premier Family Country Club",
     strap: "Tradition. Community. Recreation. Since 1922.",
