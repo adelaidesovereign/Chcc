@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+/* =====================================================================
+   Base — typographic reset, editorial defaults
+   ===================================================================== */
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern", "liga", "calt";
+    background: var(--color-surface-canvas);
+    color: var(--color-text-primary);
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: var(--leading-normal);
+    background: var(--color-surface-canvas);
+    color: var(--color-text-primary);
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: var(--color-accent-pale);
+    color: var(--color-text-emphasis);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-focus-ring);
+    outline-offset: 2px;
+    border-radius: var(--radius-xs);
+  }
+
+  /* Editorial headings — serif by default, generous tracking */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    line-height: var(--leading-tight);
+    color: var(--color-text-emphasis);
+    margin: 0;
+    letter-spacing: var(--tracking-tight);
+  }
+
+  /* Eyebrow / kicker text — small caps, gold */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    letter-spacing: var(--tracking-widest);
+    text-transform: uppercase;
+    color: var(--color-accent-deep);
+  }
+
+  /* Hairline divider — common to editorial layouts */
+  .hairline {
+    border: 0;
+    border-top: 1px solid var(--color-border-default);
+    margin: 0;
+  }
+}
+
+/* =====================================================================
+   Utilities
+   ===================================================================== */
+
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Smooth scroll for in-page links */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+}
+
+/* =====================================================================
+   Reduced motion — honour user preference
+   ===================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

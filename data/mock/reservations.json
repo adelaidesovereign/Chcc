@@ -1,0 +1,286 @@
+[
+  {
+    "id": "R-0001",
+    "memberId": "M-0191",
+    "venueId": "grill-room",
+    "time": "2026-04-09T19:15:00.000Z",
+    "partySize": 2,
+    "status": "completed",
+    "notes": "One vegetarian in party",
+    "createdAt": "2026-04-07T16:00:00.000Z"
+  },
+  {
+    "id": "R-0002",
+    "memberId": "M-0062",
+    "venueId": "main-dining",
+    "time": "2026-05-10T12:00:00.000Z",
+    "partySize": 4,
+    "status": "confirmed",
+    "createdAt": "2026-05-07T16:00:00.000Z"
+  },
+  {
+    "id": "R-0003",
+    "memberId": "M-0057",
+    "venueId": "main-dining",
+    "time": "2026-04-08T19:00:00.000Z",
+    "partySize": 6,
+    "status": "completed",
+    "createdAt": "2026-03-30T16:00:00.000Z"
+  },
+  {
+    "id": "R-0004",
+    "memberId": "M-0070",
+    "venueId": "terrace",
+    "time": "2026-04-25T17:00:00.000Z",
+    "partySize": 2,
+    "status": "confirmed",
+    "createdAt": "2026-04-22T16:00:00.000Z"
+  },
+  {
+    "id": "R-0005",
+    "memberId": "M-0017",
+    "venueId": "grill-room",
+    "time": "2026-04-15T20:15:00.000Z",
+    "partySize": 3,
+    "status": "no-show",
+    "occasion": "birthday",
+    "createdAt": "2026-04-10T16:00:00.000Z"
+  },
+  {
+    "id": "R-0006",
+    "memberId": "M-0128",
+    "venueId": "main-dining",
+    "time": "2026-04-06T19:30:00.000Z",
+    "partySize": 3,
+    "status": "completed",
+    "createdAt": "2026-03-24T16:00:00.000Z"
+  },
+  {
+    "id": "R-0007",
+    "memberId": "M-0187",
+    "venueId": "terrace",
+    "time": "2026-04-07T12:30:00.000Z",
+    "partySize": 2,
+    "status": "no-show",
+    "notes": "One vegetarian in party",
+    "createdAt": "2026-03-24T16:00:00.000Z"
+  },
+  {
+    "id": "R-0008",
+    "memberId": "M-0182",
+    "venueId": "grill-room",
+    "time": "2026-05-08T19:00:00.000Z",
+    "partySize": 2,
+    "status": "confirmed",
+    "notes": "High chair for one",
+    "occasion": "anniversary",
+    "createdAt": "2026-04-24T16:00:00.000Z"
+  },
+  {
+    "id": "R-0009",
+    "memberId": "M-0110",
+    "venueId": "main-dining",
+    "time": "2026-05-16T18:30:00.000Z",
+    "partySize": 6,
+    "status": "confirmed",
+    "createdAt": "2026-05-07T16:00:00.000Z"
+  },
+  {
+    "id": "R-0010",
+    "memberId": "M-0182",
+    "venueId": "terrace",
+    "time": "2026-04-24T20:45:00.000Z",
+    "partySize": 4,
+    "status": "completed",
+    "createdAt": "2026-04-12T16:00:00.000Z"
+  },
+  {
+    "id": "R-0011",
+    "memberId": "M-0009",
+    "venueId": "main-dining",
+    "time": "2026-04-23T20:15:00.000Z",
+    "partySize": 3,
+    "status": "no-show",
+    "createdAt": "2026-04-11T16:00:00.000Z"
+  },
+  {
+    "id": "R-0012",
+    "memberId": "M-0100",
+    "venueId": "terrace",
+    "time": "2026-04-21T19:30:00.000Z",
+    "partySize": 5,
+    "status": "completed",
+    "notes": "Will arrive after a tee time",
+    "createdAt": "2026-04-08T16:00:00.000Z"
+  },
+  {
+    "id": "R-0013",
+    "memberId": "M-0011",
+    "venueId": "main-dining",
+    "time": "2026-04-14T12:45:00.000Z",
+    "partySize": 3,
+    "status": "completed",
+    "createdAt": "2026-04-05T16:00:00.000Z"
+  },
+  {
+    "id": "R-0014",
+    "memberId": "M-0161",
+    "venueId": "main-dining",
+    "time": "2026-04-14T20:45:00.000Z",
+    "partySize": 3,
+    "status": "completed",
+    "createdAt": "2026-04-01T16:00:00.000Z"
+  },
+  {
+    "id": "R-0015",
+    "memberId": "M-0049",
+    "venueId": "terrace",
+    "time": "2026-04-15T19:45:00.000Z",
+    "partySize": 5,
+    "status": "completed",
+    "notes": "High chair for one",
+    "createdAt": "2026-04-05T16:00:00.000Z"
+  },
+  {
+    "id": "R-0016",
+    "memberId": "M-0034",
+    "venueId": "main-dining",
+    "time": "2026-04-13T18:45:00.000Z",
+    "partySize": 2,
+    "status": "completed",
+    "createdAt": "2026-03-30T16:00:00.000Z"
+  },
+  {
+    "id": "R-0017",
+    "memberId": "M-0113",
+    "venueId": "grill-room",
+    "time": "2026-05-03T12:00:00.000Z",
+    "partySize": 6,
+    "status": "confirmed",
+    "notes": "High chair for one",
+    "createdAt": "2026-04-28T16:00:00.000Z"
+  },
+  {
+    "id": "R-0018",
+    "memberId": "M-0199",
+    "venueId": "main-dining",
+    "time": "2026-04-27T19:45:00.000Z",
+    "partySize": 2,
+    "status": "confirmed",
+    "createdAt": "2026-04-26T16:00:00.000Z"
+  },
+  {
+    "id": "R-0019",
+    "memberId": "M-0165",
+    "venueId": "grill-room",
+    "time": "2026-05-08T12:00:00.000Z",
+    "partySize": 4,
+    "status": "confirmed",
+    "createdAt": "2026-04-27T16:00:00.000Z"
+  },
+  {
+    "id": "R-0020",
+    "memberId": "M-0037",
+    "venueId": "grill-room",
+    "time": "2026-04-30T17:00:00.000Z",
+    "partySize": 6,
+    "status": "confirmed",
+    "createdAt": "2026-04-27T16:00:00.000Z"
+  },
+  {
+    "id": "R-0021",
+    "memberId": "M-0083",
+    "venueId": "grill-room",
+    "time": "2026-04-29T20:45:00.000Z",
+    "partySize": 2,
+    "status": "confirmed",
+    "notes": "Celebrating an anniversary",
+    "createdAt": "2026-04-19T16:00:00.000Z"
+  },
+  {
+    "id": "R-0022",
+    "memberId": "M-0076",
+    "venueId": "grill-room",
+    "time": "2026-04-16T19:15:00.000Z",
+    "partySize": 3,
+    "status": "completed",
+    "notes": "One vegetarian in party",
+    "createdAt": "2026-04-11T16:00:00.000Z"
+  },
+  {
+    "id": "R-0023",
+    "memberId": "M-0127",
+    "venueId": "main-dining",
+    "time": "2026-04-12T18:00:00.000Z",
+    "partySize": 2,
+    "status": "no-show",
+    "occasion": "anniversary",
+    "createdAt": "2026-04-11T16:00:00.000Z"
+  },
+  {
+    "id": "R-0024",
+    "memberId": "M-0077",
+    "venueId": "grill-room",
+    "time": "2026-04-08T12:00:00.000Z",
+    "partySize": 2,
+    "status": "no-show",
+    "occasion": "business",
+    "createdAt": "2026-03-31T16:00:00.000Z"
+  },
+  {
+    "id": "R-0025",
+    "memberId": "M-0098",
+    "venueId": "main-dining",
+    "time": "2026-05-11T17:00:00.000Z",
+    "partySize": 2,
+    "status": "confirmed",
+    "notes": "High chair for one",
+    "occasion": "birthday",
+    "createdAt": "2026-05-07T16:00:00.000Z"
+  },
+  {
+    "id": "R-0026",
+    "memberId": "M-0066",
+    "venueId": "main-dining",
+    "time": "2026-05-14T20:45:00.000Z",
+    "partySize": 6,
+    "status": "confirmed",
+    "createdAt": "2026-05-03T16:00:00.000Z"
+  },
+  {
+    "id": "R-0027",
+    "memberId": "M-0043",
+    "venueId": "grill-room",
+    "time": "2026-04-11T20:45:00.000Z",
+    "partySize": 4,
+    "status": "completed",
+    "createdAt": "2026-03-31T16:00:00.000Z"
+  },
+  {
+    "id": "R-0028",
+    "memberId": "M-0124",
+    "venueId": "grill-room",
+    "time": "2026-04-22T19:00:00.000Z",
+    "partySize": 2,
+    "status": "completed",
+    "createdAt": "2026-04-13T16:00:00.000Z"
+  },
+  {
+    "id": "R-0029",
+    "memberId": "M-0178",
+    "venueId": "main-dining",
+    "time": "2026-05-09T18:45:00.000Z",
+    "partySize": 4,
+    "status": "confirmed",
+    "createdAt": "2026-05-01T16:00:00.000Z"
+  },
+  {
+    "id": "R-0030",
+    "memberId": "M-0186",
+    "venueId": "main-dining",
+    "time": "2026-04-30T18:45:00.000Z",
+    "partySize": 4,
+    "status": "confirmed",
+    "createdAt": "2026-04-25T16:00:00.000Z"
+  }
+]

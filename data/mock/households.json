@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "HH-0001",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "3237 Ellsworth Way",
+    "headOfHouseholdId": "M-0001",
+    "memberIds": ["M-0001"]
+  },
+  {
+    "id": "HH-0002",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "3451 Quincy Place",
+    "headOfHouseholdId": "M-0002",
+    "memberIds": ["M-0002", "M-0003"]
+  },
+  {
+    "id": "HH-0003",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "4981 Fairchild Road",
+    "headOfHouseholdId": "M-0004",
+    "memberIds": ["M-0004", "M-0005", "M-0006", "M-0007"]
+  },
+  {
+    "id": "HH-0004",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "9250 Ashworth Place",
+    "headOfHouseholdId": "M-0008",
+    "memberIds": ["M-0008", "M-0009"]
+  },
+  {
+    "id": "HH-0005",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "1806 Whitfield Road",
+    "headOfHouseholdId": "M-0010",
+    "memberIds": ["M-0010"]
+  },
+  {
+    "id": "HH-0006",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "6053 Beauchamp Court",
+    "headOfHouseholdId": "M-0011",
+    "memberIds": ["M-0011", "M-0012", "M-0013", "M-0014", "M-0015"]
+  },
+  {
+    "id": "HH-0007",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "6775 Kingsley Road",
+    "headOfHouseholdId": "M-0016",
+    "memberIds": ["M-0016", "M-0017"]
+  },
+  {
+    "id": "HH-0008",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "3501 Jameson Drive",
+    "headOfHouseholdId": "M-0018",
+    "memberIds": ["M-0018", "M-0019", "M-0020"]
+  },
+  {
+    "id": "HH-0009",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "5587 Abernathy Court",
+    "headOfHouseholdId": "M-0021",
+    "memberIds": ["M-0021", "M-0022", "M-0023", "M-0024"]
+  },
+  {
+    "id": "HH-0010",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "8086 Whitfield Place",
+    "headOfHouseholdId": "M-0025",
+    "memberIds": ["M-0025", "M-0026"]
+  },
+  {
+    "id": "HH-0011",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "6631 Donnelly Court",
+    "headOfHouseholdId": "M-0027",
+    "memberIds": ["M-0027"]
+  },
+  {
+    "id": "HH-0012",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "643 Underwood Place",
+    "headOfHouseholdId": "M-0028",
+    "memberIds": ["M-0028", "M-0029", "M-0030", "M-0031", "M-0032"]
+  },
+  {
+    "id": "HH-0013",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "2443 Kingsley Place",
+    "headOfHouseholdId": "M-0033",
+    "memberIds": ["M-0033", "M-0034", "M-0035"]
+  },
+  {
+    "id": "HH-0014",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "9507 Quincy Lane",
+    "headOfHouseholdId": "M-0036",
+    "memberIds": ["M-0036"]
+  },
+  {
+    "id": "HH-0015",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "1475 Hawthorne Drive",
+    "headOfHouseholdId": "M-0037",
+    "memberIds": ["M-0037", "M-0038"]
+  },
+  {
+    "id": "HH-0016",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "552 Galbraith Place",
+    "headOfHouseholdId": "M-0039",
+    "memberIds": ["M-0039", "M-0040", "M-0041"]
+  },
+  {
+    "id": "HH-0017",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "7022 Bennett Road",
+    "headOfHouseholdId": "M-0042",
+    "memberIds": ["M-0042", "M-0043"]
+  },
+  {
+    "id": "HH-0018",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "5975 Quincy Way",
+    "headOfHouseholdId": "M-0044",
+    "memberIds": ["M-0044", "M-0045"]
+  },
+  {
+    "id": "HH-0019",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "8360 Thornton Road",
+    "headOfHouseholdId": "M-0046",
+    "memberIds": ["M-0046", "M-0047", "M-0048"]
+  },
+  {
+    "id": "HH-0020",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "7592 Jameson Lane",
+    "headOfHouseholdId": "M-0049",
+    "memberIds": ["M-0049", "M-0050"]
+  },
+  {
+    "id": "HH-0021",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "8655 Bennett Road",
+    "headOfHouseholdId": "M-0051",
+    "memberIds": ["M-0051", "M-0052"]
+  },
+  {
+    "id": "HH-0022",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "8501 Rutherford Place",
+    "headOfHouseholdId": "M-0053",
+    "memberIds": ["M-0053", "M-0054", "M-0055", "M-0056", "M-0057"]
+  },
+  {
+    "id": "HH-0023",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "5165 Langdon Place",
+    "headOfHouseholdId": "M-0058",
+    "memberIds": ["M-0058", "M-0059", "M-0060"]
+  },
+  {
+    "id": "HH-0024",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "8570 Donnelly Court",
+    "headOfHouseholdId": "M-0061",
+    "memberIds": ["M-0061", "M-0062", "M-0063", "M-0064"]
+  },
+  {
+    "id": "HH-0025",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "5019 Norwood Place",
+    "headOfHouseholdId": "M-0065",
+    "memberIds": ["M-0065", "M-0066"]
+  },
+  {
+    "id": "HH-0026",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "5133 Davenport Road",
+    "headOfHouseholdId": "M-0067",
+    "memberIds": ["M-0067", "M-0068", "M-0069"]
+  },
+  {
+    "id": "HH-0027",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "6152 Rutherford Road",
+    "headOfHouseholdId": "M-0070",
+    "memberIds": ["M-0070", "M-0071", "M-0072", "M-0073"]
+  },
+  {
+    "id": "HH-0028",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "1359 Radcliffe Way",
+    "headOfHouseholdId": "M-0074",
+    "memberIds": ["M-0074", "M-0075"]
+  },
+  {
+    "id": "HH-0029",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "1822 Yardley Road",
+    "headOfHouseholdId": "M-0076",
+    "memberIds": ["M-0076", "M-0077", "M-0078", "M-0079", "M-0080"]
+  },
+  {
+    "id": "HH-0030",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "2843 Ellsworth Drive",
+    "headOfHouseholdId": "M-0081",
+    "memberIds": ["M-0081", "M-0082", "M-0083"]
+  },
+  {
+    "id": "HH-0031",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "2153 Norwood Lane",
+    "headOfHouseholdId": "M-0084",
+    "memberIds": ["M-0084"]
+  },
+  {
+    "id": "HH-0032",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "3907 Davenport Lane",
+    "headOfHouseholdId": "M-0085",
+    "memberIds": ["M-0085", "M-0086", "M-0087"]
+  },
+  {
+    "id": "HH-0033",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "2137 Cavendish Lane",
+    "headOfHouseholdId": "M-0088",
+    "memberIds": ["M-0088", "M-0089", "M-0090"]
+  },
+  {
+    "id": "HH-0034",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "8420 Thackeray Place",
+    "headOfHouseholdId": "M-0091",
+    "memberIds": ["M-0091", "M-0092"]
+  },
+  {
+    "id": "HH-0035",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "4880 Vanderbilt Way",
+    "headOfHouseholdId": "M-0093",
+    "memberIds": ["M-0093", "M-0094", "M-0095"]
+  },
+  {
+    "id": "HH-0036",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "9765 Beauchamp Court",
+    "headOfHouseholdId": "M-0096",
+    "memberIds": ["M-0096", "M-0097", "M-0098", "M-0099", "M-0100"]
+  },
+  {
+    "id": "HH-0037",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "3195 Davenport Lane",
+    "headOfHouseholdId": "M-0101",
+    "memberIds": ["M-0101"]
+  },
+  {
+    "id": "HH-0038",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "7158 Kensington Lane",
+    "headOfHouseholdId": "M-0102",
+    "memberIds": ["M-0102", "M-0103", "M-0104"]
+  },
+  {
+    "id": "HH-0039",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "9257 Kingsley Drive",
+    "headOfHouseholdId": "M-0105",
+    "memberIds": ["M-0105", "M-0106"]
+  },
+  {
+    "id": "HH-0040",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "6631 Cavendish Court",
+    "headOfHouseholdId": "M-0107",
+    "memberIds": ["M-0107"]
+  },
+  {
+    "id": "HH-0041",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "8281 Sterling Court",
+    "headOfHouseholdId": "M-0108",
+    "memberIds": ["M-0108", "M-0109", "M-0110", "M-0111", "M-0112"]
+  },
+  {
+    "id": "HH-0042",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "832 Donnelly Way",
+    "headOfHouseholdId": "M-0113",
+    "memberIds": ["M-0113"]
+  },
+  {
+    "id": "HH-0043",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "8082 Cavendish Drive",
+    "headOfHouseholdId": "M-0114",
+    "memberIds": ["M-0114"]
+  },
+  {
+    "id": "HH-0044",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "1360 Davenport Place",
+    "headOfHouseholdId": "M-0115",
+    "memberIds": ["M-0115", "M-0116"]
+  },
+  {
+    "id": "HH-0045",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "8667 Cavendish Drive",
+    "headOfHouseholdId": "M-0117",
+    "memberIds": ["M-0117", "M-0118", "M-0119"]
+  },
+  {
+    "id": "HH-0046",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "9012 Linwood Drive",
+    "headOfHouseholdId": "M-0120",
+    "memberIds": ["M-0120"]
+  },
+  {
+    "id": "HH-0047",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "5248 Ormsby Drive",
+    "headOfHouseholdId": "M-0121",
+    "memberIds": ["M-0121", "M-0122"]
+  },
+  {
+    "id": "HH-0048",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "1478 Holloway Place",
+    "headOfHouseholdId": "M-0123",
+    "memberIds": ["M-0123", "M-0124", "M-0125"]
+  },
+  {
+    "id": "HH-0049",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "4906 Ashworth Place",
+    "headOfHouseholdId": "M-0126",
+    "memberIds": ["M-0126", "M-0127", "M-0128", "M-0129"]
+  },
+  {
+    "id": "HH-0050",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "1322 Easterbrook Court",
+    "headOfHouseholdId": "M-0130",
+    "memberIds": ["M-0130", "M-0131"]
+  },
+  {
+    "id": "HH-0051",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "6832 Caldwell Road",
+    "headOfHouseholdId": "M-0132",
+    "memberIds": ["M-0132", "M-0133", "M-0134", "M-0135"]
+  },
+  {
+    "id": "HH-0052",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "719 Caldwell Way",
+    "headOfHouseholdId": "M-0136",
+    "memberIds": ["M-0136", "M-0137"]
+  },
+  {
+    "id": "HH-0053",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "8077 Whitfield Way",
+    "headOfHouseholdId": "M-0138",
+    "memberIds": ["M-0138", "M-0139", "M-0140", "M-0141"]
+  },
+  {
+    "id": "HH-0054",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "4262 Thornton Way",
+    "headOfHouseholdId": "M-0142",
+    "memberIds": ["M-0142", "M-0143"]
+  },
+  {
+    "id": "HH-0055",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "6780 Abernathy Lane",
+    "headOfHouseholdId": "M-0144",
+    "memberIds": ["M-0144", "M-0145", "M-0146", "M-0147"]
+  },
+  {
+    "id": "HH-0056",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "5312 Kensington Drive",
+    "headOfHouseholdId": "M-0148",
+    "memberIds": ["M-0148", "M-0149"]
+  },
+  {
+    "id": "HH-0057",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "9026 Thackeray Place",
+    "headOfHouseholdId": "M-0150",
+    "memberIds": ["M-0150"]
+  },
+  {
+    "id": "HH-0058",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "5306 Galbraith Court",
+    "headOfHouseholdId": "M-0151",
+    "memberIds": ["M-0151", "M-0152", "M-0153"]
+  },
+  {
+    "id": "HH-0059",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "6767 Bennett Road",
+    "headOfHouseholdId": "M-0154",
+    "memberIds": ["M-0154"]
+  },
+  {
+    "id": "HH-0060",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "4401 Sterling Way",
+    "headOfHouseholdId": "M-0155",
+    "memberIds": ["M-0155", "M-0156", "M-0157"]
+  },
+  {
+    "id": "HH-0061",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "2651 Kensington Place",
+    "headOfHouseholdId": "M-0158",
+    "memberIds": ["M-0158"]
+  },
+  {
+    "id": "HH-0062",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "3468 Fairchild Way",
+    "headOfHouseholdId": "M-0159",
+    "memberIds": ["M-0159", "M-0160", "M-0161"]
+  },
+  {
+    "id": "HH-0063",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "4456 Galbraith Way",
+    "headOfHouseholdId": "M-0162",
+    "memberIds": ["M-0162", "M-0163", "M-0164", "M-0165"]
+  },
+  {
+    "id": "HH-0064",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "5299 Rutherford Lane",
+    "headOfHouseholdId": "M-0166",
+    "memberIds": ["M-0166", "M-0167"]
+  },
+  {
+    "id": "HH-0065",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "6190 Rutherford Lane",
+    "headOfHouseholdId": "M-0168",
+    "memberIds": ["M-0168"]
+  },
+  {
+    "id": "HH-0066",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "9218 Penhaligon Court",
+    "headOfHouseholdId": "M-0169",
+    "memberIds": ["M-0169", "M-0170"]
+  },
+  {
+    "id": "HH-0067",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "3713 Kingsley Court",
+    "headOfHouseholdId": "M-0171",
+    "memberIds": ["M-0171"]
+  },
+  {
+    "id": "HH-0068",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "9177 Beauchamp Place",
+    "headOfHouseholdId": "M-0172",
+    "memberIds": ["M-0172", "M-0173"]
+  },
+  {
+    "id": "HH-0069",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "732 Beauchamp Place",
+    "headOfHouseholdId": "M-0174",
+    "memberIds": ["M-0174", "M-0175", "M-0176", "M-0177"]
+  },
+  {
+    "id": "HH-0070",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "5911 Whitfield Lane",
+    "headOfHouseholdId": "M-0178",
+    "memberIds": ["M-0178", "M-0179"]
+  },
+  {
+    "id": "HH-0071",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "9687 Fairchild Place",
+    "headOfHouseholdId": "M-0180",
+    "memberIds": ["M-0180", "M-0181"]
+  },
+  {
+    "id": "HH-0072",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "7130 Saltonstall Lane",
+    "headOfHouseholdId": "M-0182",
+    "memberIds": ["M-0182", "M-0183"]
+  },
+  {
+    "id": "HH-0073",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "9366 Caldwell Lane",
+    "headOfHouseholdId": "M-0184",
+    "memberIds": ["M-0184", "M-0185", "M-0186"]
+  },
+  {
+    "id": "HH-0074",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "9379 Marlowe Place",
+    "headOfHouseholdId": "M-0187",
+    "memberIds": ["M-0187"]
+  },
+  {
+    "id": "HH-0075",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "6310 Northrop Drive",
+    "headOfHouseholdId": "M-0188",
+    "memberIds": ["M-0188", "M-0189"]
+  },
+  {
+    "id": "HH-0076",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "7920 Jameson Place",
+    "headOfHouseholdId": "M-0190",
+    "memberIds": ["M-0190", "M-0191"]
+  },
+  {
+    "id": "HH-0077",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "9780 Norwood Court",
+    "headOfHouseholdId": "M-0192",
+    "memberIds": ["M-0192", "M-0193", "M-0194", "M-0195", "M-0196"]
+  },
+  {
+    "id": "HH-0078",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "4691 Rutherford Road",
+    "headOfHouseholdId": "M-0197",
+    "memberIds": ["M-0197", "M-0198"]
+  },
+  {
+    "id": "HH-0079",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "2741 Vanderbilt Court",
+    "headOfHouseholdId": "M-0199",
+    "memberIds": ["M-0199"]
+  },
+  {
+    "id": "HH-0080",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "3667 Ashworth Way",
+    "headOfHouseholdId": "M-0200",
+    "memberIds": ["M-0200"]
+  },
+  {
+    "id": "HH-0081",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "4195 Beauchamp Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0082",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "2661 Penhaligon Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0083",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "7915 Jameson Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0084",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "8463 Pemberton Lane",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0085",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "4401 Northrop Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0086",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "6102 Penhaligon Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0087",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "1074 Yardley Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0088",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "9320 Langdon Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0089",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "2910 Linwood Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0090",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "4058 Underwood Way",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0091",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "4948 Thackeray Way",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0092",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "8741 Kingsley Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0093",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "3008 Sterling Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0094",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "4478 Caldwell Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0095",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "858 Vanderbilt Way",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0096",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "3997 Davenport Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0097",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "4032 Norwood Lane",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0098",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "2226 Osgood Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0099",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "7804 Marlowe Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0100",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "5327 Hawthorne Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0101",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "1724 Saltonstall Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0102",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "628 Abernathy Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0103",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "7814 Caldwell Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0104",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "1523 Osgood Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0105",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "6075 Fenwick Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0106",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "1956 Pemberton Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0107",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "7352 Ormsby Way",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0108",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "3622 Granville Lane",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0109",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "4515 Fenwick Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0110",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "5454 Whitfield Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0111",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "4075 Whitfield Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0112",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "5581 Radcliffe Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0113",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27278",
+    "addressLine1": "7975 Kingsley Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0114",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "7591 Rutherford Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0115",
+    "city": "Carrboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "4068 Thornton Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0116",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27517",
+    "addressLine1": "5074 Whitfield Way",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0117",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "6627 Kensington Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0118",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "2893 Montgomery Lane",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0119",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "4852 Cavendish Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0120",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "1969 Langdon Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0121",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27516",
+    "addressLine1": "4021 Whitfield Way",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0122",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "5067 Abernathy Lane",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0123",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "3512 Abernathy Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0124",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "235 Radcliffe Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0125",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "5363 Cavendish Place",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0126",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "5962 Beauchamp Way",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0127",
+    "city": "Pittsboro",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "926 Montgomery Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0128",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "3604 Pemberton Court",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0129",
+    "city": "Durham",
+    "state": "NC",
+    "postalCode": "27510",
+    "addressLine1": "7443 Fairchild Road",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  },
+  {
+    "id": "HH-0130",
+    "city": "Hillsborough",
+    "state": "NC",
+    "postalCode": "27514",
+    "addressLine1": "2538 Caldwell Drive",
+    "headOfHouseholdId": null,
+    "memberIds": []
+  }
+]

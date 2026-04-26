@@ -1,0 +1,162 @@
+[
+  {
+    "id": "CH-0001",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-08T16:00:00.000Z",
+    "category": "golf",
+    "description": "Wine dinner ticket",
+    "amountCents": 4342
+  },
+  {
+    "id": "CH-0002",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-07T16:00:00.000Z",
+    "category": "merchandise",
+    "description": "Greens fee + cart",
+    "amountCents": 12764
+  },
+  {
+    "id": "CH-0003",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-23T16:00:00.000Z",
+    "category": "events",
+    "description": "Court fee",
+    "amountCents": 23857
+  },
+  {
+    "id": "CH-0004",
+    "memberId": "M-0001",
+    "postedAt": "2026-02-28T16:00:00.000Z",
+    "category": "events",
+    "description": "Pro shop purchase",
+    "amountCents": 16091
+  },
+  {
+    "id": "CH-0005",
+    "memberId": "M-0001",
+    "postedAt": "2026-03-11T16:00:00.000Z",
+    "category": "pool",
+    "description": "Range balls",
+    "amountCents": 20457
+  },
+  {
+    "id": "CH-0006",
+    "memberId": "M-0001",
+    "postedAt": "2026-03-14T16:00:00.000Z",
+    "category": "pool",
+    "description": "Lunch — Grill Room",
+    "amountCents": 16677
+  },
+  {
+    "id": "CH-0007",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-23T16:00:00.000Z",
+    "category": "racquets",
+    "description": "Pro shop purchase",
+    "amountCents": 6162
+  },
+  {
+    "id": "CH-0008",
+    "memberId": "M-0001",
+    "postedAt": "2026-03-03T16:00:00.000Z",
+    "category": "golf",
+    "description": "Lunch — Grill Room",
+    "amountCents": 14947
+  },
+  {
+    "id": "CH-0009",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-11T16:00:00.000Z",
+    "category": "racquets",
+    "description": "Pro shop purchase",
+    "amountCents": 15263
+  },
+  {
+    "id": "CH-0010",
+    "memberId": "M-0001",
+    "postedAt": "2026-02-27T16:00:00.000Z",
+    "category": "dining",
+    "description": "Wine dinner ticket",
+    "amountCents": 11671
+  },
+  {
+    "id": "CH-0011",
+    "memberId": "M-0001",
+    "postedAt": "2026-03-28T16:00:00.000Z",
+    "category": "racquets",
+    "description": "Dinner — Main Dining Room",
+    "amountCents": 3714
+  },
+  {
+    "id": "CH-0012",
+    "memberId": "M-0001",
+    "postedAt": "2026-03-01T16:00:00.000Z",
+    "category": "merchandise",
+    "description": "Pool snack bar",
+    "amountCents": 26528
+  },
+  {
+    "id": "CH-0013",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-12T16:00:00.000Z",
+    "category": "racquets",
+    "description": "Range balls",
+    "amountCents": 23557
+  },
+  {
+    "id": "CH-0014",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-16T16:00:00.000Z",
+    "category": "pool",
+    "description": "Lunch — Grill Room",
+    "amountCents": 11650
+  },
+  {
+    "id": "CH-0015",
+    "memberId": "M-0001",
+    "postedAt": "2026-03-22T16:00:00.000Z",
+    "category": "pool",
+    "description": "Lunch — Grill Room",
+    "amountCents": 26118
+  },
+  {
+    "id": "CH-0016",
+    "memberId": "M-0001",
+    "postedAt": "2026-03-26T16:00:00.000Z",
+    "category": "merchandise",
+    "description": "Range balls",
+    "amountCents": 15820
+  },
+  {
+    "id": "CH-0017",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-03T16:00:00.000Z",
+    "category": "golf",
+    "description": "Pool snack bar",
+    "amountCents": 15533
+  },
+  {
+    "id": "CH-0018",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-03T16:00:00.000Z",
+    "category": "golf",
+    "description": "Lunch — Grill Room",
+    "amountCents": 9735
+  },
+  {
+    "id": "CH-0019",
+    "memberId": "M-0001",
+    "postedAt": "2026-03-21T16:00:00.000Z",
+    "category": "dining",
+    "description": "Dinner — Main Dining Room",
+    "amountCents": 17260
+  },
+  {
+    "id": "CH-0020",
+    "memberId": "M-0001",
+    "postedAt": "2026-04-08T16:00:00.000Z",
+    "category": "dining",
+    "description": "Court fee",
+    "amountCents": 4021
+  }
+]

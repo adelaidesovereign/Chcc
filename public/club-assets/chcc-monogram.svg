@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Chapel Hill Country Club est. 1922">
+  <title>Chapel Hill Country Club</title>
+  <desc>Interlocking CHCC monogram with established date 1922.</desc>
+  <defs>
+    <style>
+      .gold { fill: #b08d57; }
+      .gold-stroke { fill: none; stroke: #b08d57; }
+      .serif { font-family: "Crimson Pro", "Cormorant Garamond", Georgia, serif; }
+    </style>
+  </defs>
+
+  <!-- Outer C (left) -->
+  <path class="gold-stroke" stroke-width="6" stroke-linecap="round"
+    d="M 92 50
+       A 50 60 0 1 0 92 150
+       M 92 60
+       A 40 50 0 1 1 92 140" />
+  <!-- Tiny serif tabs on outer C -->
+  <rect class="gold" x="86" y="48" width="14" height="3" />
+  <rect class="gold" x="86" y="149" width="14" height="3" />
+
+  <!-- Inner C (left, smaller) -->
+  <path class="gold-stroke" stroke-width="4"
+    d="M 110 75
+       A 28 32 0 1 0 110 125" />
+
+  <!-- Center H bar -->
+  <rect class="gold" x="125" y="95" width="70" height="10" />
+  <rect class="gold" x="125" y="60" width="6" height="80" />
+  <rect class="gold" x="189" y="60" width="6" height="80" />
+  <!-- Serif tabs on H verticals -->
+  <rect class="gold" x="120" y="58" width="16" height="3" />
+  <rect class="gold" x="120" y="139" width="16" height="3" />
+  <rect class="gold" x="184" y="58" width="16" height="3" />
+  <rect class="gold" x="184" y="139" width="16" height="3" />
+
+  <!-- Inner C (right, smaller, mirrored) -->
+  <path class="gold-stroke" stroke-width="4"
+    d="M 210 75
+       A 28 32 0 1 1 210 125" />
+
+  <!-- Outer C (right, mirrored) -->
+  <path class="gold-stroke" stroke-width="6" stroke-linecap="round"
+    d="M 228 50
+       A 50 60 0 1 1 228 150
+       M 228 60
+       A 40 50 0 1 0 228 140" />
+  <rect class="gold" x="220" y="48" width="14" height="3" />
+  <rect class="gold" x="220" y="149" width="14" height="3" />
+
+  <!-- 1 9 2 2 — established date -->
+  <text x="160" y="184" class="gold serif" text-anchor="middle"
+    font-size="22" letter-spacing="10">1922</text>
+</svg>

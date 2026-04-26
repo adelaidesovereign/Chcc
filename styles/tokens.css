@@ -1,0 +1,245 @@
+/* =====================================================================
+   Chapel Hill Country Club — Design Tokens
+   ---------------------------------------------------------------------
+   Semantic tokens only. Component CSS reads these — never raw hex.
+   The two themes (light "Parchment", dark "Hearth") are tuned to feel
+   warm, editorial, and quietly confident. References: Aman Resorts,
+   Six Senses, The Set Hotels, Cult Gaia.
+   ===================================================================== */
+
+@theme {
+  /* --- Typography -------------------------------------------------- */
+  --font-serif:
+    var(--font-crimson), "Crimson Pro", "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans:
+    var(--font-inter), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Editorial scale — generous, considered. Modular ratio ~1.2. */
+  --text-xs: 0.75rem; /* 12px — captions, labels */
+  --text-sm: 0.875rem; /* 14px — secondary UI */
+  --text-base: 1rem; /* 16px — body */
+  --text-md: 1.125rem; /* 18px — body large */
+  --text-lg: 1.375rem; /* 22px — subheads */
+  --text-xl: 1.75rem; /* 28px — section heads */
+  --text-2xl: 2.25rem; /* 36px — page titles */
+  --text-3xl: 3rem; /* 48px — hero secondary */
+  --text-4xl: 4rem; /* 64px — hero primary */
+  --text-display: 6rem; /* 96px — editorial display */
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.55;
+  --leading-relaxed: 1.7;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.05em;
+  --tracking-wider: 0.12em;
+  --tracking-widest: 0.22em;
+
+  /* --- Spacing — 4px base, generous ------------------------------- */
+  --space-px: 1px;
+  --space-0-5: 0.125rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+  --space-40: 10rem;
+  --space-48: 12rem;
+  --space-64: 16rem;
+
+  /* --- Radius — restrained ---------------------------------------- */
+  --radius-none: 0;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+
+  /* --- Motion — slow, considered, editorial ----------------------- */
+  --duration-instant: 80ms;
+  --duration-quick: 160ms;
+  --duration-normal: 280ms;
+  --duration-slow: 480ms;
+  --duration-cinematic: 900ms;
+
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.3, 0, 0, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* =====================================================================
+   THEME — Parchment (light, default)
+   Warm cream surfaces, ink-black text, champagne gold accent (the CHCC
+   monogram colour), heritage navy for trust. No pure white anywhere.
+   ===================================================================== */
+
+:root,
+[data-theme="parchment"] {
+  /* Surfaces — layered warm neutrals */
+  --color-surface-canvas: #f6f1e7; /* page background — warm parchment */
+  --color-surface-primary: #fbf7ee; /* cards, panels — softer */
+  --color-surface-secondary: #efe8d8; /* muted blocks */
+  --color-surface-elevated: #ffffff; /* dialogs, popovers */
+  --color-surface-inverse: #1a1f1c; /* dark sections inside light theme */
+  --color-surface-overlay: rgba(20, 18, 14, 0.55);
+
+  /* Text — graphite, never pure black */
+  --color-text-emphasis: #1a1f1c; /* headlines */
+  --color-text-primary: #2a2e2a; /* body */
+  --color-text-secondary: #5a5953; /* secondary copy */
+  --color-text-muted: #8a8779; /* captions, meta */
+  --color-text-disabled: #b8b4a6;
+  --color-text-inverse: #f6f1e7; /* on dark surfaces */
+  --color-text-on-accent: #1a1f1c; /* on gold */
+
+  /* Accent — CHCC champagne gold (from the 1922 monogram) */
+  --color-accent-deep: #8a6a35;
+  --color-accent: #b08d57; /* primary brand */
+  --color-accent-soft: #d4b785;
+  --color-accent-pale: #ebdcc1;
+
+  /* Heritage navy — for trust signals, links, secondary brand */
+  --color-heritage-deep: #102234;
+  --color-heritage: #1f3a5f;
+  --color-heritage-soft: #4a6a8c;
+
+  /* Forest — golf course, outdoors signalling */
+  --color-forest-deep: #1f3a2c;
+  --color-forest: #2f5640;
+  --color-forest-soft: #6e8a76;
+
+  /* Borders — hairlines */
+  --color-border-subtle: rgba(26, 31, 28, 0.06);
+  --color-border-default: rgba(26, 31, 28, 0.12);
+  --color-border-strong: rgba(26, 31, 28, 0.24);
+
+  /* Status — muted, editorial */
+  --color-status-success: #4a6a4f;
+  --color-status-warning: #b08d57;
+  --color-status-danger: #8a3a2e;
+  --color-status-info: #1f3a5f;
+
+  /* Shadows — soft, low, never hard */
+  --shadow-xs: 0 1px 2px rgba(26, 31, 28, 0.04);
+  --shadow-sm: 0 2px 8px rgba(26, 31, 28, 0.05);
+  --shadow-md: 0 8px 24px rgba(26, 31, 28, 0.07);
+  --shadow-lg: 0 24px 60px rgba(26, 31, 28, 0.12);
+  --shadow-xl: 0 40px 120px rgba(26, 31, 28, 0.18);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+
+  /* Focus ring — gold, not blue */
+  --color-focus-ring: rgba(176, 141, 87, 0.55);
+}
+
+/* =====================================================================
+   THEME — Hearth (dark)
+   Forest-green base, warm ivory text, same champagne gold accent.
+   Reads like a private library at dusk.
+   ===================================================================== */
+
+[data-theme="hearth"] {
+  --color-surface-canvas: #14191a; /* very dark forest */
+  --color-surface-primary: #1c2322;
+  --color-surface-secondary: #242b29;
+  --color-surface-elevated: #2c3331;
+  --color-surface-inverse: #f6f1e7;
+  --color-surface-overlay: rgba(8, 10, 9, 0.7);
+
+  --color-text-emphasis: #f4ecd8;
+  --color-text-primary: #e2dac6;
+  --color-text-secondary: #b5ad99;
+  --color-text-muted: #847d6d;
+  --color-text-disabled: #4a463e;
+  --color-text-inverse: #1a1f1c;
+  --color-text-on-accent: #14191a;
+
+  --color-accent-deep: #d4b785;
+  --color-accent: #c8a76b;
+  --color-accent-soft: #a88550;
+  --color-accent-pale: #6a5230;
+
+  --color-heritage-deep: #8aa8c4;
+  --color-heritage: #6a8aac;
+  --color-heritage-soft: #4a6a8c;
+
+  --color-forest-deep: #8ab296;
+  --color-forest: #6e9078;
+  --color-forest-soft: #4a6a52;
+
+  --color-border-subtle: rgba(244, 236, 216, 0.06);
+  --color-border-default: rgba(244, 236, 216, 0.12);
+  --color-border-strong: rgba(244, 236, 216, 0.24);
+
+  --color-status-success: #8ab296;
+  --color-status-warning: #c8a76b;
+  --color-status-danger: #c4806e;
+  --color-status-info: #8aa8c4;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55);
+  --shadow-xl: 0 40px 120px rgba(0, 0, 0, 0.7);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+  --color-focus-ring: rgba(200, 167, 107, 0.6);
+}
+
+/* Honour OS preference when no explicit choice has been made. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    /* Re-apply Hearth values */
+    --color-surface-canvas: #14191a;
+    --color-surface-primary: #1c2322;
+    --color-surface-secondary: #242b29;
+    --color-surface-elevated: #2c3331;
+    --color-surface-inverse: #f6f1e7;
+    --color-surface-overlay: rgba(8, 10, 9, 0.7);
+    --color-text-emphasis: #f4ecd8;
+    --color-text-primary: #e2dac6;
+    --color-text-secondary: #b5ad99;
+    --color-text-muted: #847d6d;
+    --color-text-disabled: #4a463e;
+    --color-text-inverse: #1a1f1c;
+    --color-text-on-accent: #14191a;
+    --color-accent-deep: #d4b785;
+    --color-accent: #c8a76b;
+    --color-accent-soft: #a88550;
+    --color-accent-pale: #6a5230;
+    --color-heritage-deep: #8aa8c4;
+    --color-heritage: #6a8aac;
+    --color-heritage-soft: #4a6a8c;
+    --color-forest-deep: #8ab296;
+    --color-forest: #6e9078;
+    --color-forest-soft: #4a6a52;
+    --color-border-subtle: rgba(244, 236, 216, 0.06);
+    --color-border-default: rgba(244, 236, 216, 0.12);
+    --color-border-strong: rgba(244, 236, 216, 0.24);
+    --color-status-success: #8ab296;
+    --color-status-warning: #c8a76b;
+    --color-status-danger: #c4806e;
+    --color-status-info: #8aa8c4;
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55);
+    --shadow-xl: 0 40px 120px rgba(0, 0, 0, 0.7);
+    --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    --color-focus-ring: rgba(200, 167, 107, 0.6);
+  }
+}

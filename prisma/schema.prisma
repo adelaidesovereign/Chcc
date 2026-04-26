@@ -1,0 +1,75 @@
+// =====================================================================
+// Chapel Hill Country Club — Prisma schema
+// ---------------------------------------------------------------------
+// Phase 1 scope: only the tables Supabase Auth + the app's own state
+// need. Member / reservation / event entities live in ClubEssential
+// (or its mock) and are accessed via the adapter — they do NOT live
+// in our database. This avoids dual sources of truth.
+//
+// What we DO store:
+//   - members_local: app-side preferences keyed to a ClubEssential
+//     member id (push tokens, theme, dietary notes the member edits
+//     themselves, anything ClubEssential won't accept writes for).
+//   - audit_log: every sensitive read/write the app performs.
+//   - feature_flag_overrides: per-member opt-in for beta features.
+//
+// All tables use Supabase RLS. Policies are declared in supabase/
+// migrations once Supabase is provisioned.
+// =====================================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model MemberLocal {
+  /// ClubEssential member id (e.g. "M-0001"). PK on our side.
+  memberId          String   @id
+  /// Supabase auth.users.id once the member has logged in.
+  authUserId        String?  @unique
+  /// Selected theme: "parchment" | "hearth" | null (system).
+  themePreference   String?
+  /// JSON push subscription objects.
+  pushSubscriptions Json?
+  /// Free-text notes the member maintains themselves.
+  selfNotes         String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@map("members_local")
+}
+
+model AuditLog {
+  id          BigInt   @id @default(autoincrement())
+  occurredAt  DateTime @default(now())
+  /// e.g. "member.read", "reservation.create", "house_account.read".
+  action      String
+  /// Acting Supabase user id (NULL for system actions).
+  actorUserId String?
+  /// Affected ClubEssential member id, if applicable.
+  targetMemberId String?
+  /// Resource id (reservation id, event id, etc).
+  resourceId  String?
+  /// Truncated request metadata. Never store PII here.
+  metadata    Json?
+
+  @@index([occurredAt])
+  @@index([targetMemberId])
+  @@map("audit_log")
+}
+
+model FeatureFlagOverride {
+  id        BigInt   @id @default(autoincrement())
+  memberId  String
+  flag      String
+  enabled   Boolean
+  createdAt DateTime @default(now())
+
+  @@unique([memberId, flag])
+  @@map("feature_flag_overrides")
+}
